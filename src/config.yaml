@@ -1,5 +1,5 @@
 site:
-  name: ACFO website
+  name: Anderson CFO
   site: 'https://beta.acfo.co'
   base: '/'
   trailingSlash: false
@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Anderson CFO
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Anderson CFO, Fractional CFO.  Get your company on track."
   robots:
     index: true
     follow: true
