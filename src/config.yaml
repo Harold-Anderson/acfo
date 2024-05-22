@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: ACFO website
+  site: 'https://beta.acfo.co'
   base: '/'
   trailingSlash: false
 
