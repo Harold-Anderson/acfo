@@ -170,14 +170,12 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/harold-anderson-cfo/' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Harold-Anderson' },
   ],
   footNote: `
     <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src='https://acfostandardstorage.blob.core.windows.net/artwork/favicon-32x32.png' alt="ACFO logo" loading="lazy"></img>
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://acfo.co"> Anderson CFO</a> · All rights reserved.
+    Copyright &copy; 2024 <a class="text-blue-600 underline dark:text-muted" href="https://acfo.co"> Anderson CFO</a> · All rights reserved.
   `,
 };
