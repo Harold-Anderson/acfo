@@ -18,6 +18,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@astrojs/check": "^0.7.0",
     "@astrojs/netlify": "^5.2.1",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.4",

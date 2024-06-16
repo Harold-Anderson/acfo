@@ -2,6 +2,7 @@
 publishDate: 2024-03-13T00:00:00Z
 title: Blog post d'Harold
 excerpt: Cool.
+description: Sometimes complicated situations are actually quite simple.  We show how a seemingly difficult business can be modeled in one line.
 tags:
   - markdown
   - blog
