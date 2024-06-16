@@ -6,7 +6,12 @@ description:
 tags:
   - cpg
   - basics
-image: "~/assets/images/building_blocks-1200x680.jpeg"
+openGraph:
+  images: 
+    - url: "/images/building_blocks-1200x680.jpeg"
+    - width = 1200
+    - height = 680
+image: "~/assets/images/building_blocks.webp"
 ---
 
 
