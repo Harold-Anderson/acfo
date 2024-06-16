@@ -6,7 +6,7 @@ description:
 tags:
   - cpg
   - basics
-image: "~/assets/images/building_blocks.webp"
+image: "~/assets/images/building_blocks-1200x680.jpeg"
 ---
 
 
