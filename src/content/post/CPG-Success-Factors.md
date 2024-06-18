@@ -14,6 +14,12 @@ openGraph:
 image: "~/assets/images/building_blocks.webp"
 ---
 
+<meta property="og:title" content="Title of Your Content" />
+<meta property="og:description" content="Description of Your Content" />
+<meta property="og:url" content="https://res.cloudinary.com/demo/image/upload/sheep.jpg" />
+<meta property="og:type" content="article" />
+
+
 
 Published on: 2024-02-22
 
