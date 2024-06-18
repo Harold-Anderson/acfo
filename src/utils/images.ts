@@ -1,6 +1,8 @@
 import { getImage } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import type { OpenGraph } from '@astrolib/seo';
+import { Debug } from 'astro:components';
+import type { DebuggerStatement } from 'typescript';
 
 const load = async function () {
   let images: Record<string, () => Promise<unknown>> | undefined = undefined;
@@ -94,6 +96,9 @@ export const adaptOpenGraphImages = async (
       };
     })
   );
+
+
+  console.log(adaptedImages);
 
   return { ...openGraph, ...(adaptedImages ? { images: adaptedImages } : {}) };
 };

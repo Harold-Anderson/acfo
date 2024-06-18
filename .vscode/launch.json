@@ -7,7 +7,7 @@
 			"request": "launch",
 			"type": "node-terminal",
 			"skipFiles": ["**/node_modules/**"],
-			"sourceMaps": true
+			"cwd": "${workspaceFolder}"
 		},
 		{
 			"type": "chrome",

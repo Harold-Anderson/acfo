@@ -1,6 +1,7 @@
 ---
 import merge from 'lodash.merge';
 import { AstroSeo } from '@astrolib/seo';
+import { Debug } from 'astro/components';
 
 import type { Props as AstroSeoProps } from '@astrolib/seo';
 
@@ -75,4 +76,8 @@ if (adaptedOpenGraph.images && adaptedOpenGraph.images.length) {
 }
 ---
 
-<AstroSeo {...{ ...seoProps, openGraph: adaptedOpenGraph }} />
+<>
+  <Debug seoProps={seoProps} />
+  <Debug allProps={Astro.props} />
+  <AstroSeo {...{ ...seoProps, openGraph: adaptedOpenGraph }} />
+</>
