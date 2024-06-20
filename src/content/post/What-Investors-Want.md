@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-03-13T00:00:00Z
+publishDate: 2024-02-28T00:00:00Z
 title: What Investors Want
 excerpt: 'This blog entry discusses the most critical business metrics for success in Consumer Packaged Goods (CPG):  Gross Profit Margin, Trade Spend, and Gross Profit.   Controlling these are a requirement for investor interest and for a healthy business.'
 description: 
@@ -11,11 +11,6 @@ tags:
   - Trade Spend
 image: "~/assets/images/Cut_Dollar.jpeg"
 ---
-
-
-
-
-Published on: 2024-02-28
 
 Last week, we said that a high gross margin is the most important quality of a successful business.   Indeed, most venture capitalists’ first question is about the gross margin.   I have had venture capitalists summarily end the conversation if the answer is insufficient.  Let’s unpack and discuss this.   Let’s define a few terms first.  Please note that these definitions do not necessarily agree with standard accounting definitions.
 
