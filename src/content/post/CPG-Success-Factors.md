@@ -7,7 +7,7 @@ tags:
   - cpg
   - basics
 image:  
-  src: https://gamma.acfo.co/public/images/building_blocks-1200x680.jpeg
+  src: "/images/building_blocks-1200x680.jpeg"
   width: 1200
   height: 680
 type: jpeg
