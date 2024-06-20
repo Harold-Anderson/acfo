@@ -6,18 +6,9 @@ description:
 tags:
   - cpg
   - basics
-openGraph:
-  image: 
-    url: "/images/building_blocks-1200x680.jpeg"
-    width: 1200
-    height: 680
 image: "~/assets/images/building_blocks.webp"
 ---
 
-<meta property="og:title" content="Title of Your Content" />
-<meta property="og:description" content="Description of Your Content" />
-<meta property="og:url" content="https://res.cloudinary.com/demo/image/upload/sheep.jpg" />
-<meta property="og:type" content="article" />
 
 
 
