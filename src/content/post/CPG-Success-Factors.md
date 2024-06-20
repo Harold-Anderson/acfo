@@ -28,8 +28,7 @@ A successful company is characterized by its ability to increase revenue and mai
 
 5. **A forecast** Developing a range of financial forecasts based on potential customer reach, gross margins, product run sizes, etc., is vital. These projections help determine the necessary funding to sustain your business, without which you're essentially operating in the dark, making your venture less attractive to investors.
 
-6. **Securing Investors** Early-stage financing often relies on contributions from friends, family, and a network of high net-worth individuals. The amount of capital required is directly influenced by the factors mentioned above. A business with high-margin products, low minimum purchase requirements, and minimal competition will naturally require less investment.   
-
+6. **Securing Investors** Early-stage financing often relies on contributions from friends, family, and a network of high net-worth individuals. The amount of capital required is directly influenced by the factors mentioned above. A business with high-margin products, low minimum purchase requirements, and minimal competition will naturally require less investment.
 
 It's a common misconception to assume your product has no competition because of a slight difference to existing products on the market. However, when placed alongside established brands, your product is in direct competition, regardless of its unique attributes. Brand recognition, price and shelf placement play significant roles in consumer choice, making it essential to consider all aspects of market competition.
 
