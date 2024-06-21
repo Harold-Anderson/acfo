@@ -14,7 +14,7 @@
   "eslint.useFlatConfig": true,
   "markdownlint.config": {
     "MD033": {
-      "allowed_elements": ["nobr", "sup", "u"]
+      "allowed_elements": ["nobr", "sup", "u", "ol"]
     }
   }
 }
