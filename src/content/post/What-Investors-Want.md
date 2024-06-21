@@ -30,7 +30,7 @@ But what Gross Margin is required in a growing, healthy business?   The answer d
 
 Memorably, Coca-Cola’s gross profit margin is 55%, which is typical for the beverage industry in general.   Food companies have lower gross margins, around 22%, because of the higher volumes.  Overall, the Food & Beverage industry has a gross margin of about 50%.
 
-For a small CPG company, the minimum gross margin is 40%, preferably 45%.  This is not only a requirement of venture capitalists, but also a requirement to have a healthy, growing business.   This gross profit pays for salaries, product development, interest costs, and marketing.   Typically, after these s0-called _fixed_ expenses, there will not be any taxable net income to report.  
+For a small CPG company, the minimum gross margin is 40%, preferably 45%.  This is not only a requirement of venture capitalists, but also a requirement to have a healthy, growing business.   This gross profit pays for salaries, product development, interest costs, and marketing.   Typically, after these so-called _fixed_ expenses, there will not be any taxable net income to report.  
 
 Typically, brokers ask for trade spend of 20-25%.   I would advise that trade spend including slotting fees be kept under 25%.   It is important to monitor and plan your trade spend.   Uncontrolled trade spend kills companies.
 
