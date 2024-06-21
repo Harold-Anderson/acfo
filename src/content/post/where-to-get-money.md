@@ -10,8 +10,6 @@ tags:
 image: "~/assets/images/Searching for money.svg"
 ---
 
-The question of how to finance a startup is close to the heart of every entrepreneur.   Financing a business can be thought of as a ladder.   The best options depend on the stage of your business.
-
 ### Early-Stage Equity
 
 - **Planning.** Before you do anything, you need to have a clear-headed understanding of how much cash your venture is likely to need before it is self-sustaining.   Talk with both successful and unsuccessful entrepreneurs.  Most startups fail, and you need to understand how much money you and your investors could lose.  In the happy event your products have strong demand and you are a talented CEO,  how much money will be required to get to profitability?   CPG businesses are capital-intensive and fairly low-margin.  A lot of cash is required to get them to scale.  We’ve seen companies go through more than $20 million.
