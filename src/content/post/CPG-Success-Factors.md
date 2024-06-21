@@ -9,11 +9,6 @@ tags:
 image: "~/assets/images/building_blocks.webp"
 ---
 
-
-
-
-Published on: 2024-02-22
-
 Welcome to the inaugural blog post of Anderson CFO! Our mission is to guide brands towards sustainable growth and help them navigate the challenges that more often than not lead to failure. The reality is that while most Consumer Packaged Goods (CPG) brands start with the best intentions, many lack the critical knowledge of potential pitfalls and essential strategies for success.
 
 A successful company is characterized by its ability to increase revenue and maintain a healthy cash flow. But achieving this requires more than just ambition; it demands a strategic approach.  Here are the most important elements:
