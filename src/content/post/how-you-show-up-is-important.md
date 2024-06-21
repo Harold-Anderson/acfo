@@ -48,7 +48,7 @@ Accomplishing these goals requires talent, skill, and experience. I will not enu
 
 8. **Tell me why your business is certain to succeed.** All successful sales share one thing: They transfer the emotion of certainty from the speaker to the audience. Be 100% certain that your business will succeed. Talk about the successes you have already had with this business and how it is proof of huge growth to come.
 
-9. **Be committed to your business.** If your goal in life is to be a bartender, you should not be running a business that is soliciting investment. )_“The business needs money so I can get back to running my bar.”_ is not a winning pitch.  Investors want to invest in someone who will give 100% to the business.
+9. **Be committed to your business.** If your goal in life is to be a bartender, you should not be running a business that is soliciting investment.   _“The business needs money so I can get back to running my bar.”_ is not a winning pitch.  Investors want to invest in someone who will give 100% to the business.
 
 10. **Have realistic but ambitious projections.** No one can predict future sales. However, investors are not looking to invest in a company that will be selling less than $1 million in five years. That would not provide a good return on investment. Think about where you are going to sell your product and what is required to get impressive sales results. If you need to hire salespeople, account for that. No one can grow a $10 million business by themselves. All this needs to be concisely articulated in the presentation.
 
