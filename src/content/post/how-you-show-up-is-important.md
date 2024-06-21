@@ -40,11 +40,11 @@ Accomplishing these goals requires talent, skill, and experience. I will not enu
 
 6. **Time your presentation.** Learn presentation basics. If you are given five minutes for your presentation, make sure you have practiced your presentation at least ten times with a timer. Microsoft PowerPoint has a coaching facility that will give you pointers on whether you are speaking too fast or in a monotone. There are two problems with running out of time: First, you don’t get to present some important points you have prepared. Second, it gives the impression that you are disorganized and can’t plan — not a good thing for someone who is in fact presenting a plan.
 
-7. **Control the audience.**  Slide decks are a visual aid only. You want the audience looking at you, not trying to decipher your slides.  The audience should be able to instantly understand the slide and then look back at you.  Using builds focuses attention on what you are saying and prevents the audience from reading ahead.  Builds also enhance the impression that you are in control.
+7. **Control the audience.**  Slide decks are a visual aid only. You want the audience looking at you, not trying to decipher your slides.  The audience should be able to instantly understand the slide and then look back at you.  Using [builds](https://support.microsoft.com/en-us/office/create-a-build-slide-1776b892-4967-444c-bcaf-d4fbd0953b79) focuses attention on what you are saying and prevents the audience from reading ahead.  Builds also enhance the impression that you are in control.
 
    Avoid excessive text and complete sentences. Don’t read the slides to your audience. Tailor every presentation to the audience. Learn what should be in a presentation deck and how to deliver it.  Most people have too many slides.
 
-   Structuring investor presentations is a science and an art.  A Venture Capitalist I know has even written a book on it.
+   Structuring investor presentations is a science and an art.  A Venture Capitalist I know has even written [a book](https://a.co/d/1DUlxaU) on it.
 
 8. **Tell me why your business is certain to succeed.** All successful sales share one thing: They transfer the emotion of certainty from the speaker to the audience. Be 100% certain that your business will succeed. Talk about the successes you have already had with this business and how it is proof of huge growth to come.
 
