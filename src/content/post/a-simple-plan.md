@@ -36,6 +36,10 @@ You many have noticed that the above chart looks a bit strange.  Why is there su
 
 In fact, it is because there are several errors in the above model.  Also, it would be more interesting to show the sales by month, rather than cumulative sales.
 
-So I’m offering $50 to the first person can model this correctly and defend your work without help on a video call with me.  If you work for an F P & A company or are related to someone who is, you are not eligible.  One attempt per person, so make sure your model is correct before talking to me.  
+So I’m offering $50 to the first person can model this correctly and defend your work without help on a video call with me.  If you work for an F P & A company or are related to someone who is, you are not eligible.  One attempt per person, so make sure your model is correct before talking to me.  Here are some questions to ask yourself:
+
+- How many random variables are there?
+- What is the chance you get a decision from customer three in month five?
+- What is the chance you close customer three in month five?
 
 You don’t have to use Causal.  Instead, you could do this for free in [RiskAmp Web](https://web.riskamp.com/about).  Or maybe you want to use another FP & A tool.  You may use any continuous distribution for the time-to-decision for each customer.  Good luck!
