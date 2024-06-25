@@ -1,6 +1,6 @@
 site:
   name: Anderson CFO
-  site: 'https://beta.acfo.co'
+  site: 'https://acfo.co'
   base: '/'
   trailingSlash: false
 

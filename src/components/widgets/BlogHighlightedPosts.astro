@@ -7,6 +7,7 @@ import { getBlogPermalink } from '~/utils/permalinks';
 import { findPostsByIds } from '~/utils/blog';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Widget } from '~/types';
+import { Debug } from 'astro:components';
 
 export interface Props extends Widget {
   title?: string;
@@ -30,8 +31,10 @@ const {
 } = Astro.props;
 
 const posts = APP_BLOG.isEnabled ? await findPostsByIds(postIds) : [];
+console.log('ID value:', id);
 ---
 
+<Debug value="test" />
 {
   APP_BLOG.isEnabled ? (
     <WidgetWrapper id={id} isDark={isDark} containerClass={classes?.container as string} bg={bg}>
