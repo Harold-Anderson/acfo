@@ -2,7 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
@@ -36,10 +35,64 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
+  <!-- Content Widget **************** -->
 
-  <Note />
+  <style>
+    .parent-container {
+      display: grid;
+      place-items: center; /* This centers the children both vertically and horizontally */
+      height: 100%; /* Ensure the container takes up the full height */
+    }
+  </style>
 
+  <div class="parent-container">
+    <Content
+      id="about"
+      image={{
+        src: '~/assets/images/harold.jpg',
+        alt: 'Harold Anderson',
+        loading: 'eager',
+      }}
+    >
+      <Fragment slot="content">
+        <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+          We’re here to help you thrive.
+        </h2>
+        <p>
+          The vast majority of CPG startups fail in spectacular fashion. It is easy to have an idea, but the demands
+          from distributors, retailers, and co-packers often come as a rude shock. In order to succeed, you need
+          experienced guidance.
+        </p>
+        <br />
+        <p>
+          We have 15 years of C-suite level experience in CPG and can advise you on all aspects of your business to make
+          sure you reach your goals.
+        </p>
+        <br />
+        <p>
+          Most Fractional CFOs are simply CPAs who decided they wanted to make more money as a Fractional CFO. Deep
+          industry experience is required in order to avoid the pitfalls in CPG.
+        </p>
+        <br />
+        <p>
+          As a small business, you may not be able to match the expertise that your larger competitors have in cash-flow
+          projections, forecasting, raising capital, and systems. We’re here to give you that big-company advantage.
+          Sometimes understanding what a potential hire or a new SKU will do to your cash runway can be a relief.
+        </p>
+        <br />
+        <p>I want to understand what is keeping you up at night and fix it.</p>
+        <br />
+        <p>
+          To read more about me, visit the About page. To read answers to frequent questions about the process, visit
+          the FAQ. Or click the button below to read about the services we offer to keep you on track.
+        </p>
+      </Fragment>
+
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      </Fragment>
+    </Content>
+  </div>
   <!-- Features Widget *************** -->
 
   <Features

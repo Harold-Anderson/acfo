@@ -25,6 +25,14 @@ const {
 } = Astro.props;
 ---
 
+<style>
+  .image-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+  }
+</style>
+
 <WidgetWrapper
   id={id}
   isDark={isDark}
@@ -71,7 +79,7 @@ const {
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
           image && (
-            <div class="relative m-auto max-w-4xl">
+            <div class="image-container relative m-auto max-w-4xl">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
