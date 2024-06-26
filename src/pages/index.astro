@@ -53,6 +53,12 @@ const metadata = {
         alt: 'Harold Anderson',
         loading: 'eager',
       }}
+      callToAction={{
+        variant: 'primary', // Choose the variant based on your design needs
+        href: '/pricing', // Use 'href' instead of 'target' for anchor elements
+        icon: 'tabler:arrow-right', // Specify an icon name if needed
+        text: 'Learn More', // The button label
+      }}
     >
       <Fragment slot="content">
         <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
@@ -83,16 +89,18 @@ const metadata = {
         <p>I want to understand what is keeping you up at night and fix it.</p>
         <br />
         <p>
-          To read more about me, visit the About page. To read answers to frequent questions about the process, visit
-          the FAQ. Or click the button below to read about the services we offer to keep you on track.
-        </p>
+          To read more, visit the <span class="text-accent"><a href="/about">About</a></span> page. To read answers to frequent
+          questions about the process, visit the FAQ. Or click the button below to read about the services we offer to keep
+          you on track.
+        </p><br></br>
       </Fragment>
 
       <Fragment slot="bg">
         <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
       </Fragment>
-    </Content>
+
   </div>
+
   <!-- Features Widget *************** -->
 
   <Features
