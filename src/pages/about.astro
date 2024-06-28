@@ -2,16 +2,70 @@
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'About us',
+  title: 'About',
 };
 ---
 
+<style>
+  .parent-container {
+    display: grid;
+    place-items: center; /* This centers the children both vertically and horizontally */
+    height: 100%; /* Ensure the container takes up the full height */
+  }
+</style>
+
 <Layout metadata={metadata}>
+  <Content
+    id="about"
+    image={{
+      src: '~/assets/images/harold.jpg',
+      alt: 'Harold Anderson',
+      loading: 'eager',
+    }}
+    callToAction={{
+      variant: 'primary', // Choose the variant based on your design needs
+      href: '/pricing', // Use 'href' instead of 'target' for anchor elements
+      icon: 'tabler:arrow-right', // Specify an icon name if needed
+      text: 'Learn More', // The button label
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Meet Harold</h2>
+      <br />
+      <p>
+        I have run two CPG startups over the past 15 years. I know what it takes to succeed in CPG. I would love to help
+        you chart the correct course for your company and achieve your personal and professional goals.
+      </p>
+      <br />
+      <p>
+        I am driven by a desire to make your company successful. It is tragic when companies make simple, but fatal
+        strategic errors. All the years of hard work and your shareholders’ money evaporates. The landscape is
+        competitive. Let’s make sure you are charting the correct path.
+      </p>
+      <br />
+      <p>
+        I was an investment banker, and also the Director of Quantitative Research for Fixed Income at Fidelity
+        Investments, where I ran a group of Ph.D.s who valued Fidelity’s investments.
+      </p>
+      <br />
+      <p>
+        I have a Ph.D. in Applied Mathematics and degrees in Math and Physics from M.I.T. I live in Portland, Oregon.
+      </p>
+      <CallToAction />
+    </Fragment>
+  </Content>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+
   <!-- Hero Widget ******************* -->
 
   <Hero

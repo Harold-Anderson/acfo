@@ -1,0 +1,77 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import FAQs from '~/components/widgets/FAQs.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Sales Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  {/* FAQ Widget */}
+
+  <FAQs
+    title="Frequently Asked Questions"
+    subtitle={`Some are actual questions that customers have asked.  Some are questions we wish they had asked. 😊`}
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'How much does it cost?  Will you work on an hourly basis?',
+        description: `Please check out the options on our <span class="text-accent dark:text-white highlight"><a href="/services">Services</a></span> page.   
+          The cost depends on the depth of our relationship.  We do not work on an hourly basis, but we might be able to sell you a block of time.`,
+      },
+      {
+        title: 'What size companies do you work with?',
+        description: `A CFO should cost you between 2% and 5% of your current revenue.  
+        If you choose our smallest package for $1,000 per month, 
+        that would mean that your annual revenue should be at least $240,000.   
+        <br> <br>
+        We find that companies over $1 million in revenue benefit more from our services because their basic systems are already functioning. 
+        `,
+      },
+      {
+        title: 'Will you do my bookkeeping?  It is really messed up.',
+        description:
+          'No.  We are not a CPA firm.  After we begin working together, we may be able to recommend a bookkeeper.',
+      },
+      {
+        title: 'Why are you the best choice?  There are other more established CFO firms out there.',
+        description: `Unlike other CFO firms, we have personally optimized, integrated and run all functions of CPG companies.   
+        Most Fractional CFOs, even if they specialize in one area, don’t have deep operating experience in that area.   
+        This makes it difficult to be a sounding board for the questions you will have.  
+        Being a CPA turned Fractional CFO is not enough.  You deserve better.`,
+      },
+      {
+        title:
+          'I paid another Fractional CFO to do a model for me, but it is a mess. And it does not capture the nuances of my company.',
+        description: `Most do not have the skill set to do what you need. Five linked Google Sheets with 10 tabs each in them will
+                      be difficult to use and maintain, and is an indication that the person who built the model is an amateur.
+                       We are one of very few partners that 
+                       <span class="text-accent dark:text-white highlight"><a href="https://causal.app" target="blank_">Causal</a></span>
+                      recommends, for good reason.`,
+      },
+      {
+        title: 'I already have a Fractional CFO.  I just need someone to raise money for me.  Can you do that?',
+        description: `If your Fractional CFO cannot raise money for you, you need a different Fractional CFO.  
+        Professional investors appreciate the involvement of a Fractional CFO.  The flip side of that is that the Fractonal CFO
+        is staking his/her reputation on you by talking to each investor.  We will not do this unless we have worked with you for a while.    
+        `,
+      },
+    ]}
+  />
+
+  <CallToAction
+    title="Coming soon"
+    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download Template',
+        href: 'https://github.com/onwidget/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  />
+</Layout>

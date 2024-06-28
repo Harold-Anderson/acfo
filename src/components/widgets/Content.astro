@@ -29,7 +29,7 @@ const {
   .image-container {
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
   }
 </style>
 
@@ -79,7 +79,7 @@ const {
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
           image && (
-            <div class="md:image-container relative m-auto max-w-4xl">
+            <div class="image-container relative m-auto max-w-4xl">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
