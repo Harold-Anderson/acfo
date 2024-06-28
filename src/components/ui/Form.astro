@@ -5,7 +5,14 @@ import Button from '~/components/ui/Button.astro';
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
 
-<form>
+<form
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  id="form"
+  class="needs-validation"
+  data-astro-reload
+  novalidate
+>
   {
     inputs &&
       inputs.map(
@@ -57,6 +64,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
             type="checkbox"
             class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
           />
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
         </div>
         <div class="ml-3">
           <label for="disclaimer" class="cursor-pointer select-none text-sm text-gray-600 dark:text-gray-400">
@@ -84,4 +92,5 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
       </div>
     )
   }
+  <input type="hidden" name="access_key" value="1e006f4c-0206-49d7-923b-256615370bf8" />
 </form>
