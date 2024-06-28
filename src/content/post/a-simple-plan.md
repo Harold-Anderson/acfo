@@ -2,7 +2,7 @@
 publishDate: 2024-05-15T00:00:00Z
 title: A Simple Plan
 excerpt: Sometimes complicated situations are actually quite simple.  We show how a seemingly difficult business can be modeled in one line. WARNING. This is an advanced article, not suitable for most entrepreneurs.  If in doubt, skip it.
-image: ~/assets/images/a-simple-plan.jpg
+image: ~/assets/images/a-simple-plan7.jpg
 tags:
   - forecasting
   - fp&a
