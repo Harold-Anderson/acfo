@@ -28,7 +28,9 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <div class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+      <div
+        class="parent-container text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+      >
         Meet Harold
       </div>
       <br /><br /><br />
@@ -52,11 +54,10 @@ const metadata = {
         I have a Ph.D. in Applied Mathematics and degrees in Math and Physics from M.I.T. I live in Portland, Oregon.
       </p>
     </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
   </Content>
-
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
 
   <!-- Steps2 Widget ****************** -->
 
@@ -69,7 +70,9 @@ const metadata = {
       {
         title: 'Respect',
         description:
-          'Every person is unique, and their experiences are valuable. Disrespectful communication is prima facie evidence you do not believe this.',
+          'Every person is unique, and their experiences are valuable.' +
+          '&nbsp; Disrespectful communication is overwhelming evidence you do not believe this.' +
+          '&nbsp; If you treat others disrespectfully, you are hurting the company.',
         icon: 'tabler:heart-handshake',
       },
       {
@@ -89,8 +92,7 @@ const metadata = {
       },
       {
         title: 'Ethical Practices',
-        description:
-          'We follow laws and stay away from questionable practices. Good business relationships are built on treating collegues, vendors, and customers well.',
+        description: 'Good business relationships are built on treating colleagues, vendors, and customers well.',
         icon: 'tabler:scale',
       },
     ]}
