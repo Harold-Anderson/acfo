@@ -23,7 +23,11 @@ export default defineConfig({
   }), sitemap(), mdx(), icon({
     include: {
       tabler: ['*'],
-      'flat-color-icons': ['template', 'gallery', 'approval', 'document', 'advertising', 'currency-exchange', 'voice-presentation', 'business-contact', 'database']
+      'flat-color-icons': ['binoculars','voice-presentation','combo-chart',
+      'business-contact','process'],
+      'mdi':['strategy'],
+      'streamline':['subscription-cashflow'],
+      'fluent-emoji':['magnifying-glass-tilted-right']
     }
   }), ...whenExternalScripts(() => partytown({
     config: {
