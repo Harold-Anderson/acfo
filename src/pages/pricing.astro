@@ -3,8 +3,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Prices from '~/components/widgets/Pricing.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Features3 from '~/components/widgets/Features3.astro';
+// import Steps from '~/components/widgets/Steps.astro';
+// import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -25,7 +25,7 @@ const metadata = {
 
   <Prices
     title="Our prices"
-    subtitle="Only pay for what you need and can afford."
+    subtitle="Only pay for what you need."
     prices={[
       {
         title: 'basic',
@@ -37,7 +37,7 @@ const metadata = {
             description: 'One hour-long call per month.',
           },
           {
-            description: 'High-level advice.',
+            description: 'CFO-level advice.',
           },
           {
             description: 'Three hours of research and review from our side.',
@@ -49,7 +49,7 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
       {
@@ -77,7 +77,7 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
@@ -107,14 +107,14 @@ const metadata = {
         callToAction: {
           target: '_blank',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
     ]}
   />
 
   <!-- Features3 Widget ************** -->
-
+  <!-- 
   <Features3
     title="Price-related features"
     subtitle="Discover the advantages of choosing our plans"
@@ -153,9 +153,9 @@ const metadata = {
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
-
+ -->
   <!-- Steps Widget ****************** -->
-
+  <!-- 
   <Steps
     title="A guided journey from plans to creativity"
     tagline="simplified process"
@@ -194,7 +194,7 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
@@ -204,29 +204,33 @@ const metadata = {
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
-        description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+        title: 'Can I ask questions outside of office hours?',
+        description: `We will provide a Teams or Slack environment for you to ask questions at any time, or you may ask via email.  
+            We will respond during office hours, which are 8-5 Monday to Friday, Pacific time.`,
       },
       {
-        title: 'Is there a trial period for the different plans?',
-        description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+        title: 'What are the payment terms and methods?',
+        description: `We require payment in advance for each month of service.  If you start in the middle of the month, the rest of the month is
+           pro-rated.  Payment may be made by wire, e-check, ACH, Venmo, Paypal, credit card, or BILL.`,
       },
       {
-        title: 'Can I switch between plans?',
+        title: 'Do you offer any guarantees?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'If you are not happy with the service, we will refund up to one month of service.  We have never had to do this.',
       },
       {
-        title: 'What payment methods do you accept?',
+        title: 'Is there a minimum term for the service?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'The service is month-to-month. You may cancel at any time during the month.  Cancellation will take effect at the end of the month.',
       },
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
-        description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+        description: 'You must maintain subscriptions to any services we jointly decide you need.',
+      },
+      {
+        title: `Why don't you have any customers on your website?  Can I get any referrals or references?`,
+        description: `We do not discuss our particular customers.  
+                             We have had customers in Consumer Packaged Goods, Marketing, and Defense.  Revenues have ranged from $250,000 to $10 million.`,
       },
     ]}
   />
@@ -234,13 +238,13 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="Ready to turbocharge your business?"
+    subtitle="Join our community of satisfied customers who have transformed their businesses."
     actions={[
       {
         variant: 'primary',
         text: 'Get started now',
-        href: '/',
+        href: '/contact',
       },
     ]}
   />
