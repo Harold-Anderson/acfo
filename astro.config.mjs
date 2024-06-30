@@ -24,7 +24,7 @@ export default defineConfig({
     include: {
       tabler: ['*'],
       'flat-color-icons': ['binoculars','voice-presentation','combo-chart',
-      'business-contact','process'],
+      'business-contact','process','document','template'],
       'mdi':['strategy'],
       'streamline':['subscription-cashflow'],
       'fluent-emoji':['magnifying-glass-tilted-right']
