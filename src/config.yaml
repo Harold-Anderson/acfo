@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Anderson CFO
-    template: '%s — AstroWind'
+    template: '%s — Anderson CFO'
   description: "Anderson CFO, Fractional CFO.  Get your company on track."
   robots:
     index: true

@@ -31,6 +31,12 @@ const {
     top: 50%;
     transform: translateY(-60%);
   }
+  .image-container2 {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+    height: 100%; /* Set a height to enable alignment */
+  }
 </style>
 
 <WidgetWrapper
@@ -79,7 +85,7 @@ const {
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
           image && (
-            <div class="image-container relative m-auto max-w-4xl">
+            <div class="image-container2 relative m-auto max-w-4xl">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
