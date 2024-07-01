@@ -201,14 +201,10 @@ const metadata = {
   <FAQs
     title="Pricing FAQs"
     id="PricingFAQ"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    subtitle=`Choosing the right plan is important, and we're here to answer your questions. Here are some pricing-specific questions.  More general questions are on the
+             <span class="text-accent dark:text-white highlight"></span><a href="/faq">FAQ</a></span> page.`
     columns={1}
     items={[
-      {
-        title: 'Can I ask questions outside of office hours?',
-        description: `We will provide a Teams or Slack environment for you to ask questions at any time, or you may ask via email.  
-            We will respond during office hours, which are 8-5 Monday to Friday, Pacific time.`,
-      },
       {
         title: 'What are the payment terms and methods?',
         description: `We require payment in advance for each month of service.  If you start in the middle of the month, the rest of the month is
@@ -229,9 +225,11 @@ const metadata = {
         description: 'You must maintain subscriptions to any services we jointly decide you need.',
       },
       {
-        title: `Why don't you have any customers on your website?  Can I get any referrals or references?`,
-        description: `We do not discuss our particular customers.  
-                             We have had customers in Consumer Packaged Goods, Marketing, and Defense.  Revenues have ranged from $250,000 to $10 million.`,
+        title: "I can't afford it.  Will you give me a discount?",
+        description:
+          'Because we are able to offer services that others cannot, our services represent a compelling value.' +
+          ' We are likely to increase our prices in the future.' +
+          ' We would be happy to recommend some Fractional CFOs who might be a better fit.',
       },
     ]}
   />

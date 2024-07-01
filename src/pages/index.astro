@@ -90,11 +90,10 @@ const metadata = {
           >. Or click the button below to read about the services we offer to keep you on track.
         </p><br /></Fragment
       >
+      <Fragment slot="bg">
+        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+      </Fragment>
     </Content>
-    <!-- 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment> -->
   </div>
 
   <Brands
@@ -218,5 +217,8 @@ const metadata = {
     <Fragment slot="title"> Get Started </Fragment>
 
     <Fragment slot="subtitle"> Tell us what you need to kick your business into high gear. </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
   </CallToAction>
 </Layout>
