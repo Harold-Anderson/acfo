@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-04-20T00:00:00Z
 title: You May Not Expense Your Inventory
-excerpt: 'Expensing inventory is only permitted if you are doing the same in your accounting system.  You can’t tell the IRS one thing and do another.'
-description: 
+excerpt: 'Uncover the truth about inventory tax deductions for small businesses, IRS regulations, and compliant accounting practices.'
 tags:
   - leadership
   - management

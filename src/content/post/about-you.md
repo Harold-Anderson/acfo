@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-03-30T00:00:00Z
 title: About You
-excerpt: 'Even more than gross margin, investors are looking for experienced, competent CEOs.'
-description: 
+excerpt: Explore the key qualities and experience required for a CEO to ensure business success, from industry knowledge to management skills and strategic decision-making.
 tags:
   - leadership
   - management

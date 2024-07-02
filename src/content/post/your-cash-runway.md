@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-03-14T00:00:00Z
 title: Your Cash Runway
-excerpt: 'Companies appreciate knowing if and when they will run out of money.  This is the most requested services of Fractional CFOs.'
-description: 
+excerpt: Discover how cash flow forecasting prevents insolvency and ensures financial stability. Learn about how a Fractional CFO can help manage short-term cash flow.
 tags:
   - cashflow
   - forecasting

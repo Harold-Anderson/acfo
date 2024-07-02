@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-05-04T00:00:00Z
 title: How You Show Up is Important
-excerpt: 'How you present yourself will make or break your chances with investors.   Everything you do sends a message.  Be sure it is the right message.'
-description: 
+excerpt: Learn how to avoid common mistakes and successfully pitch your business to investors as a Fractional CFO shares essential tips for impactful presentations.
 tags:
   - presentations
 image: "~/assets/images/presentation_model.jpeg"

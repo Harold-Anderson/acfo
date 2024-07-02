@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-03-11T00:00:00Z
 title: Legal and Finance Basics
-excerpt: 'One of the most frequent topics that comes up among founders is the basic legal structures and rules that all companies must follow.'
+excerpt: Discover the essential legal steps for starting a business, from choosing a name and incorporating to managing share registers and complying with investor regulations.
 description: 
 tags:
   - legal

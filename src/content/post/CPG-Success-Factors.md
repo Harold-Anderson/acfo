@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-02-22T00:00:00Z
 title: CPG Success Factors
-excerpt: A successful company is characterized by its ability to increase revenue and maintain a healthy cash flow. But achieving this requires more than just ambition; it demands a strategic approach.
-description: 
+excerpt: Explore how a Fractional CFO can improve your chances of success through product-market fit, competitive margins, and innovative forecasting. Don't become a statistic!
 tags:
   - cpg
   - basics

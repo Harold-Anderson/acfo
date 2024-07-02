@@ -11,7 +11,7 @@ metadata:
   title:
     default: Anderson CFO
     template: '%s — Anderson CFO'
-  description: "Anderson CFO, Fractional CFO.  Get your company on track."
+  description: Fractional CFO in Portland, Oregon. Financial Planning & Analysis (FP&A) using Causal.  Cashflow analysis, Power BI, ERP systems, CPG experience.`
   robots:
     index: true
     follow: true

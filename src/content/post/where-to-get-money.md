@@ -1,8 +1,7 @@
 ---
 publishDate: 2024-03-26T00:00:00Z
 title: Where to get money
-excerpt: 'The question of how to finance a startup is close to the heart of every entrepreneur.   Financing a business can be thought of as a ladder.   The best options depend on the stage of your business.'
-description: 
+excerpt: Explore early-stage equity and debt financing options for startups, from personal funds and angel investors to SBA loans and venture capital. Learn how to strategically fund your business and avoid common pitfalls.
 tags:
   - capital raises
   - venture capital

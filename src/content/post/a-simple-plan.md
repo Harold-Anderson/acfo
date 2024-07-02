@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-05-15T00:00:00Z
 title: A Simple Plan
-excerpt: Sometimes complicated situations are actually quite simple.  We show how a seemingly difficult business can be modeled in one line. WARNING. This is an advanced article, not suitable for most entrepreneurs.  If in doubt, skip it.
+excerpt: Learn how to manage sales pipelines and predict outcomes using FP&A tools like Causal. Explore probability models and take on a $50 challenge to improve the model's accuracy.
 image: ~/assets/images/a-simple-plan7.jpg
 tags:
   - forecasting
