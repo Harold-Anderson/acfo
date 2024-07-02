@@ -30,6 +30,11 @@ jobs:
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
            package-manager: npm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+      # New step to set cache-control headers
+      - name: Set Cache-Control Headers
+        run: |
+          echo "Setting cache headers..."
+          find dist -type f -exec sh -c 'echo "$0" && echo "Cache-Control: public, max-age=31536000, immutable" > "$0.headers"' {} \;
 
   deploy:
     needs: build
