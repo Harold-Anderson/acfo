@@ -9,7 +9,6 @@ import icon from 'astro-icon';
 import compress from '@playform/compress';
 import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
-import netlify from "@astrojs/netlify";
 import node from "@astrojs/node";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const hasExternalScripts = false;
