@@ -10,24 +10,25 @@ import compress from '@playform/compress';
 import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
 import netlify from "@astrojs/netlify";
+import node from "@astrojs/node";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const hasExternalScripts = false;
 const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(items) ? items.map(item => item()) : [items()] : [];
 
+
 // https://astro.build/config
 export default defineConfig({
-  output: 'static',
+  output: 'server',
   site: 'https://acfo.co',
   integrations: [tailwind({
     applyBaseStyles: false
   }), sitemap(), mdx(), icon({
     include: {
       tabler: ['*'],
-      'flat-color-icons': ['binoculars','voice-presentation','combo-chart',
-      'business-contact','process','document','template'],
-      'mdi':['strategy'],
-      'streamline':['subscription-cashflow'],
-      'fluent-emoji':['magnifying-glass-tilted-right']
+      'flat-color-icons': ['binoculars', 'voice-presentation', 'combo-chart', 'business-contact', 'process', 'document', 'template'],
+      'mdi': ['strategy'],
+      'streamline': ['subscription-cashflow'],
+      'fluent-emoji': ['magnifying-glass-tilted-right']
     }
   }), ...whenExternalScripts(() => partytown({
     config: {
@@ -62,5 +63,7 @@ export default defineConfig({
       }
     }
   },
-  adapter: netlify()
+  adapter: node({
+    mode: "standalone"
+  })
 });
