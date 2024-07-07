@@ -1,33 +1,87 @@
 ---
 import Headline from '~/components/ui/Headline.astro';
-import ItemGrid from '~/components/ui/ItemGrid.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
-import type { Faqs as Props } from '~/types';
+import type { Faqs as Props, Item } from '~/types';
 
 const {
   title = '',
   subtitle = '',
   tagline = '',
   items = [],
-  columns = 2,
-
   id,
   isDark = false,
   classes = {},
   bg = await Astro.slots.render('bg'),
-} = Astro.props;
+} = Astro.props as Props;
 ---
+
+<style>
+  .accordion-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .accordion-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  details {
+    background-color: #fff;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  summary {
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start; /* Ensure items align to the top */
+    outline: none;
+  }
+
+  summary::marker {
+    display: none;
+  }
+
+  .icon {
+    margin-right: 0.5rem;
+    transition: transform 0.2s;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #1d4ed8; /* blue color */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+  }
+
+  details[open] .icon {
+    transform: rotate(90deg);
+  }
+
+  details p {
+    margin-top: 0.75rem;
+    margin-left: 2rem; /* indenting description */
+    color: #6c757d;
+  }
+</style>
 
 <WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-7xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
   <Headline title={title} subtitle={subtitle} tagline={tagline} />
-  <ItemGrid
-    items={items}
-    columns={columns}
-    defaultIcon="tabler:chevron-right"
-    classes={{
-      container: `${columns === 1 ? 'max-w-4xl' : ''} gap-y-8 md:gap-y-12`,
-      panel: 'max-w-none',
-      icon: 'flex-shrink-0 mt-1 w-6 h-6 text-primary',
-    }}
-  />
+  <div class="accordion-grid">
+    {
+      items.map((item: Item) => (
+        <details>
+          <summary>
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            <span>{item.title}</span>
+          </summary>
+          <p set:html={item.description} />
+        </details>
+      ))
+    }
+  </div>
 </WidgetWrapper>
