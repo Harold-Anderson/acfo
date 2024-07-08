@@ -6,7 +6,7 @@ tags:
   - capital raises
   - venture capital
   - venture debt
-image: "~/assets/images/Searching for money.svg"
+image: "~/assets/images/Searching for money.webp"
 postID: 4
 ---
 
