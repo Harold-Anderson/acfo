@@ -7,6 +7,7 @@ tags:
   - forecasting
   - fractional cfo
 image: "~/assets/images/hourglass.jpeg"
+postID: 2
 ---
 
 It may seem obvious, but companies need to have a deep understanding of if and when they will run out of money.  Insolvency is the inability to meet current obligations.  Even though sales may be increasing, it is possible to run out of money for a variety of reasons.   This causes unnecessary stress for everyone in the company, especially the Accounts Payable staff.

@@ -6,6 +6,7 @@ tags:
   - leadership
   - management
 image: "~/assets/images/Inventory.jpeg"
+postID: 11
 ---
 
 On a recent call with a small business owner who was looking for a Fractional CFO, the business owner proudly said that she had avoided nearly $100,000 in taxes by deducting her inventory as an expense at the time of purchase rather than booking it as an asset.  If she had booked the inventory as an asset (sometimes called capitalization), that would have raised the business’ taxable income, since the expense deduction would not have been taken.  The business was in California, where federal and state taxes amount to nearly 30%.  Understandably, $100,000 is a lot for any small business.  Since she was interviewing me as a potential CFO, she wanted my reaction to this important question for her business.

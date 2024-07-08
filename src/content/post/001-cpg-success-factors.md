@@ -6,6 +6,7 @@ tags:
   - cpg
   - basics
 image: "~/assets/images/building_blocks.webp"
+
 ---
 
 Welcome to the inaugural blog post of Anderson CFO! Our mission is to guide brands towards sustainable growth and help them navigate the challenges that more often than not lead to failure. The reality is that while most Consumer Packaged Goods (CPG) brands start with the best intentions, many lack the critical knowledge of potential pitfalls and essential strategies for success.

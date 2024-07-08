@@ -7,6 +7,7 @@ tags:
   - venture capital
   - venture debt
 image: "~/assets/images/Searching for money.svg"
+postID: 4
 ---
 
 ### Early-Stage Equity

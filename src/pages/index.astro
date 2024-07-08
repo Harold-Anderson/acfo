@@ -4,8 +4,8 @@ import Brands from '~/components/widgets/Brands.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
   title: 'Anderson CFO - Fractional CFO',
@@ -197,12 +197,11 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogHighlightedPosts
+  <BlogLatestPosts
     title="Read Our Blog"
-    information={`These articles are in reverse chronological order.  It is best to start at the beginning.  
-                Advanced articles have warnings; feel free to skip those.
+    information={`This is a selection of featured articles.  For the full list, 
+                 choose Blog from the main menu or View all posts to the left.
                   `}
-    postIds={['2']}
   />
 
   <!-- CallToAction Widget *********** -->

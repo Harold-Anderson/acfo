@@ -8,6 +8,7 @@ tags:
   - capital raises
   - SAFE
 image: "~/assets/images/legal.jpeg"
+postID: 6
 ---
 
 One of the most frequent topics that comes up among founders is the basic legal structures and rules that all companies must follow.   Unless you are a lawyer, it isn’t a fun topic.  But it is one that everyone has to deal with.   So much has been written on this topic, but I feel that I can add by dealing with all the basics at once.
