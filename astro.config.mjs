@@ -1,9 +1,11 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { defineConfig, squooshImageService } from 'astro/config';
+import { defineConfig } from 'astro/config';
+import { imageService } from "@unpic/astro/service";
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
+
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from '@playform/compress';
@@ -48,7 +50,7 @@ export default defineConfig({
     config: './src/config.yaml'
   })],
   image: {
-    service: squooshImageService(),
+    service: imageService(),
     domains: ['cdn.pixabay.com']
   },
   markdown: {
@@ -60,6 +62,9 @@ export default defineConfig({
       alias: {
         '~': path.resolve(__dirname, './src')
       }
+    },
+    build: {
+      sourcemap: true, // Enable source maps
     }
   },
   adapter: netlify()

@@ -4,7 +4,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import BlogHighlightedPosts from '~/components/widgets/BlogHighlightedPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -197,11 +197,12 @@ const metadata = {
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
+  <BlogHighlightedPosts
     title="Read Our Blog"
     information={`These articles are in reverse chronological order.  It is best to start at the beginning.  
-              Advanced articles have warnings; feel free to skip those.
-                `}
+                Advanced articles have warnings; feel free to skip those.
+                  `}
+    postIds={['2']}
   />
 
   <!-- CallToAction Widget *********** -->
