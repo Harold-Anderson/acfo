@@ -18,7 +18,7 @@ const whenExternalScripts = (items = []) => hasExternalScripts ? Array.isArray(i
 
 export default defineConfig({
   output: 'static',
-  site: 'https://acfo.co',
+  site: 'https://www.acfo.co',
   integrations: [
     tailwind({
       applyBaseStyles: false
