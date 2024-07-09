@@ -1,6 +1,6 @@
 site:
   name: Anderson CFO
-  site: 'https://acfo.co'
+  site: 'https://www.acfo.co'
   base: '/'
   trailingSlash: false
 
