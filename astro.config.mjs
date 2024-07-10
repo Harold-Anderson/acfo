@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import { imageService } from "@unpic/astro/service";
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
@@ -67,9 +66,6 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin]
-  },
-  image: {
-    service: imageService(),
   },
   vite: {
     resolve: {
