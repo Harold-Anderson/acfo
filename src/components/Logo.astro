@@ -1,18 +1,11 @@
 ---
 // import { SITE } from 'astrowind:config';
 import { Image } from 'astro:assets';
-import ACFOLogo from '../assets/images/Logo_Black.png'
-
+import ACFOLogo from '../assets/images/Logo_Black.svg';
 ---
 
 <span
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
-<Image 
-   src={ACFOLogo}
-   width = {ACFOLogo.width / 8}
-   alt="Anderson CFO logo"
-   loading={"eager"}
-   />
-
+  <Image src={ACFOLogo} width={ACFOLogo.width / 8} alt="Anderson CFO logo" loading={'eager'} />
 </span>
