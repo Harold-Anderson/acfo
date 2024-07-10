@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: Anderson CFO
     images:
-      - url: '~/assets/images/Logo_Blue.png'
+      - url: '~/assets/images/Logo_Blue.svg'
         width: 1424
         height: 419
     type: website
