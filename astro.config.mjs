@@ -39,7 +39,8 @@ export default defineConfig({
         ],
         'mdi': ['strategy'],
         'streamline': ['subscription-cashflow'],
-        'fluent-emoji': ['magnifying-glass-tilted-right']
+        'fluent-emoji': ['magnifying-glass-tilted-right'],
+        'material-symbols': ['communication'],
       }
     }),
     ...whenExternalScripts(() => partytown({

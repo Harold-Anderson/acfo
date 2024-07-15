@@ -31,6 +31,7 @@
     "@iconify-icons/flat-color-icons": "^1.2.5",
     "@iconify-json/fluent-emoji": "^1.1.18",
     "@iconify-json/fluent-mdl2": "^1.1.7",
+    "@iconify-json/material-symbols": "^1.1.84",
     "@iconify-json/mdi": "^1.1.67",
     "@iconify-json/streamline": "^1.1.8",
     "astro": "^4.11.3",
