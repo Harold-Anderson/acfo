@@ -3,8 +3,9 @@ publishDate: 2024-04-20T00:00:00Z
 title: You May Not Expense Your Inventory
 excerpt: 'Uncover the truth about inventory tax deductions for small businesses, IRS regulations, and compliant accounting practices.'
 tags:
-  - leadership
-  - management
+  - accounting
+  - inventory
+  - expenses
 image: "~/assets/images/Inventory.jpeg"
 postID: 11
 ---
