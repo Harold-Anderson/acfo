@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
   # https://docs.github.com/en/actions/learn-github-actions/variables
-env:
+#env:
 #  HUSKY: 0
 
 jobs:
