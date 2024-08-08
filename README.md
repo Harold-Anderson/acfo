@@ -256,11 +256,11 @@ prefer.
 
 #### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
+Please note that Netlify does not mitigate DDoS attacks, which could lead to unexpected large bills.   We recommend deploying to Cloudflare Pages or Github Pages instead.  Instructions for Netlify have therefore been removed.
 
 #### Deploy to Vercel
+
+Please note that Vercel does not allow commercial projects on the free plan.  Consider deploying to Cloudflare Pages or Github Pages instead.
 
 Clone this repository on own GitHub account and deploy to Vercel:
 

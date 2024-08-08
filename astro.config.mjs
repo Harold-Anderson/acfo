@@ -8,7 +8,6 @@ import icon from 'astro-icon';
 import compress from '@playform/compress';
 import astrowind from './vendor/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
-import netlify from "@astrojs/netlify";
 import { fileURLToPath } from 'url';
 import path from 'path';
 
@@ -77,6 +76,5 @@ export default defineConfig({
     build: {
       sourcemap: true, // Enable source maps
     }
-  },
-  adapter: netlify()
+  }
 });
