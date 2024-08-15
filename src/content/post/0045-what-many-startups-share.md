@@ -21,7 +21,7 @@ You might think this is the exception.  It is not.  It is the case in every comp
 
 Business is all about making money.  If companies don't keep track of their income, expenses, assets, and liabilities, they should never have gone into business in the first place.
 
-85% of CPG companies fail.  There are many reasons for this.  However, one reasons is that many founders simply do not have what it takes.  If they do not take their accounting seriously, they have no business being in business.
+85% of CPG companies fail.  There are many reasons for this.  However, one reason is that many founders simply do not have what it takes.  If they do not take their accounting seriously, they have no business being in business.
 
 The difference between big companies and small companies is more than their sales.  It is fundamentally the people who are running the company.  Ask yourself if you have what it takes to run a large company.   Start by being able to produce an income statement and balance sheet at any time for whomever asks for it.
 
