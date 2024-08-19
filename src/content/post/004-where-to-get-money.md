@@ -38,7 +38,7 @@ There are a lot of unscrupulous lenders preying on small businesses and their ow
 
 -- **Revenue-based financing.**  [Kickfurther](https://www.kickfurther.com/) runs a crowdfunding website that is a bit different, and much more useful than traditional crowdfunding.  Investors on the platform lend money at reasonable rates.  Most of the investors are banks, so the raises are usually successful.  As you repay loans on Kickfurther, the amount you can borrow increases.  Kickfurther does require a personal guarantee to back up the loan.   Please limit your exposure.
 
-At approximately this rung of the ladder is the English company [Wayflyer](https://www.wayflyer.com/wholesale-financing).  Their rates are slightly lower than Kickfurther, and they do not require a personal guarantee nor collateral.   However, their underwriting is stricter than Kickfurther.
+At approximately this rung of the ladder is the English company [Wayflyer](https://partners.wayflyer.com/0mf8ezgo8hvq).  Their rates are slightly lower than Kickfurther, and they do not require a personal guarantee nor collateral.   However, their underwriting is stricter than Kickfurther.
 
 -- **Asset-based financing.** Further up the ladder, so-called Asset-based lenders, or ABLs will make secured loans.  Acceptable security is Accounts Receivable or equipment.   There are only a couple that take inventory as collateral, making this of limited use for CPG brands.   If they take inventory as collateral, they usually will require that AR is at least 50% of the collateral in the deal.  There are hundreds of ABL lenders.
 
