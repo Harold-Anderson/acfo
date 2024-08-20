@@ -1,3 +1,5 @@
+[![Deploy to GitHub Pages](https://github.com/Harold-Anderson/acfo/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harold-Anderson/acfo/actions/workflows/deploy.yml)
+
 # 🚀 AstroWind
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
