@@ -1,6 +1,6 @@
 [![Deploy to GitHub Pages](https://github.com/Harold-Anderson/acfo/actions/workflows/deploy.yml/badge.svg)](https://github.com/Harold-Anderson/acfo/actions/workflows/deploy.yml)
 
-![Cloudflare Pages Status](https://hidden-block-b70b.harold-e85.workers.dev?cb-1)
+![Cloudflare Pages Status](https://hidden-block-b70b.harold-e85.workers.dev?cb=1)
 
 # 🚀 AstroWind
 
