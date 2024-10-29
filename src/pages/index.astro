@@ -6,6 +6,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
 
 const metadata = {
   title: 'Anderson CFO - Fractional CFO',
@@ -156,6 +157,27 @@ const metadata = {
       },
     ]}
   />
+
+  <Testimonials
+  title="Words from real customers"
+  testimonials={[
+    {
+      testimonial: `I was initially skeptical about hiring a fractional CFO, 
+      especially for the unique challenges of the CPG industry. But in a critical time of need, 
+      Harold Anderson at Anderson CFO exceeded every expectation. His expertise, insights, 
+      and strategic approach have been invaluable. 
+      Highly recommended for anyone looking for top-tier financial leadership!`,
+      name: 'Mike White',
+      job: 'Venture Catalyst + Advisor',
+      image: {
+        src: '~/assets/images/mike_white.png',
+        alt: 'Mike White Image',
+      },
+    },
+    
+  ]}
+ 
+/>
 
   <Brands
     title="Partnerships & Collaborations"
