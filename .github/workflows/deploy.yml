@@ -2,10 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
+  # Using a different branch name? Replace `main` with your branchs name
   push:
     branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  # Allows you to run this workflow manually from the Actions tab on Github.
   workflow_dispatch:
 
 # Allow this job to clone the repo and create a page deployment
