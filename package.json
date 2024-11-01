@@ -35,6 +35,7 @@
     "@iconify-json/mdi": "^1.2.1",
     "@iconify-json/streamline": "^1.2.1",
     "@jridgewell/sourcemap-codec": "^1.5.0",
+    "@playform/inline": "^0.1.0",
     "@rollup/plugin-inject": "^5.0.5",
     "astro-embed": "^0.7.4",
     "astro-emoji": "^1.2.0",
