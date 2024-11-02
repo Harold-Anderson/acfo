@@ -17,7 +17,9 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero actions={[]} image={{ src: '~/assets/images/asian_blue_jacket-16x9.png', alt: 'Anderson CFO Hero Image' }}>
+  <Hero actions={[]} image={{ src: '~/assets/images/asian_blue_jacket-16x9.png', 
+                              alt: 'Anderson CFO Hero Image',
+                              fectchpriority: 'high' }}>
     <Fragment slot="title">
       Helping
       <span class="text-accent dark:text-white highlight"> your</span> business succeed.
@@ -50,6 +52,7 @@ const metadata = {
       image={{
         src: '~/assets/images/woman-boxes.webp',
         alt: 'Harold Anderson',
+        fetchpriority: "high"
       }}
       callToAction={{
         variant: 'primary', // Choose the variant based on your design needs
