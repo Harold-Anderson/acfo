@@ -28,7 +28,10 @@ In order to achieve this, you need to make a few choices on Cloudflare:
 https://yourpage.pages.dev
 * Both CNAMES should be proxied in Cloudflare DNS.
 * Do not have any redirect rules from your root to www.  This is important.
-* Please note that I am not setting cache headers.  Let Cloudflare do that.
+* Please note that I am not setting cache headers.  [Let Cloudflare 
+   do that](https://developers.cloudflare.com/pages/configuration/serving-pages/).
+    > In most situations, you should avoid setting up any custom caching on your site. Pages comes with built in caching defaults that are optimized for caching as much as possible, while providing the most up to date content. Every time you deploy an asset to Pages, the asset remains cached on the Cloudflare CDN until your next deployment.
+
 * In the settings for your domain (not the Astro site), under Speed > optimization > Protocol optimization
 make sure that HTTP/3 and HTTP/2 to Origin are enaabled.  You probably can enable everthing
 on the protocols tab.
@@ -40,7 +43,7 @@ leave those on.
 Cloudflare Pages will set these.
 * On the same tab, set Always Online to be true. I hate downtime.
 * Under Cachint > Tiered Cache, use their Smart Tiered Caching Topology.
-* On youre Workers & Pagest dashboard, set up Custom Domains for both your root
+* On your Workers & Pagest dashboard, set up Custom Domains for both your root
 and www.
 
 # About the Astro Template
