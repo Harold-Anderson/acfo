@@ -48,7 +48,7 @@ and www.
 
 # About the Astro Template
 
-I used pnpm instead of npm because it is faster and more flexible.
+I used bun instead of npm because it is faster.
 
 The AstroWind template version I used has a bug where it will optimize 
 even images in /public.  This is a problem if you need to post your blog 

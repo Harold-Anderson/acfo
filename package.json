@@ -3,11 +3,16 @@
   "version": "1.0.0-beta.34",
   "description": "AstroWind: A free template using Astro 4.0 and Tailwind CSS. Astro starter theme.",
   "type": "module",
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "bun@1.1.34",
   "private": true,
   "engines": {
     "node": " >= 22.11.0"
   },
+  "trustedDependencies": [
+    "esbuild",
+    "sharp",
+    "workerd"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -41,6 +46,7 @@
     "astro-embed": "^0.7.4",
     "astro-emoji": "^1.2.0",
     "astro-icon": "^1.1.1",
+    "esbuild": "^0.24.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
     "unpic": "^3.19.0"
@@ -55,6 +61,7 @@
     "@playform/compress": "0.0.4",
     "@prettier/plugin-xml": "^3.4.1",
     "@tailwindcss/typography": "^0.5.15",
+    "@types/bun": "^1.1.13",
     "@types/eslint__js": "^8.42.3",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
