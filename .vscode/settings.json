@@ -20,5 +20,7 @@
     "MD033": {
       "allowed_elements": ["nobr", "sup", "u", "ol"]
     }
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
