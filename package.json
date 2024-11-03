@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "^11.2.0",
+    "@astrojs/cloudflare": "12.0.0-beta.1",
     "@astrojs/rss": "^4.0.9",
     "@astrojs/sitemap": "^3.2.1",
     "@astrolib/analytics": "^0.5.0",
@@ -46,9 +46,9 @@
     "unpic": "^3.19.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^3.1.9",
+    "@astrojs/mdx": "4.0.0-beta.3",
     "@astrojs/partytown": "^2.1.2",
-    "@astrojs/tailwind": "5.1.0",
+    "@astrojs/tailwind": "5.1.2",
     "@eslint/js": "^9.13.0",
     "@iconify-json/flat-color-icons": "^1.2.0",
     "@iconify-json/tabler": "^1.2.7",
@@ -60,7 +60,7 @@
     "@types/lodash.merge": "^4.6.9",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
-    "astro": "^4.16.8",
+    "astro": "5.0.0-beta.6",
     "astro-eslint-parser": "^1.0.3",
     "eslint": "^9.13.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
