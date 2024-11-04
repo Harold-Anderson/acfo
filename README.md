@@ -34,7 +34,7 @@ on my desktop computer. In order to achieve this, you need to make a few choices
   > In most situations, you should avoid setting up any custom caching on your site. Pages comes with built in caching defaults that are optimized for caching as much as possible, while providing the most up to date content. Every time you deploy an asset to Pages, the asset remains cached on the Cloudflare CDN until your next deployment.
 
 - In the settings for your domain (not the Astro site), under Speed > optimization > Protocol optimization
-  make sure that HTTP/3 and HTTP/2 to Origin are enaabled. You probably can enable everthing
+  make sure that HTTP/3 and HTTP/2 to Origin are enabled. You probably can enable everything
   on the protocols tab.
 - On the Content optimization tab, turn off Speed Brain and Rocket Loader.
   I haven't found a problem with Cloudflare Fonts or Early Hints, so you can
@@ -43,8 +43,8 @@ on my desktop computer. In order to achieve this, you need to make a few choices
 - On the same tab, set the Browser Cache TTL to respect existing headers.  
   Cloudflare Pages will set these.
 - On the same tab, set Always Online to be true. I hate downtime.
-- Under Cachint > Tiered Cache, use their Smart Tiered Caching Topology.
-- On your Workers & Pagest dashboard, set up Custom Domains for both your root
+- Under Caching > Tiered Cache, use their Smart Tiered Caching Topology.
+- On your Workers & Pages dashboard, set up Custom Domains for both your root
   and www.
 
 It might be possible to further improve LCP by preloading the hero image. Astro does not really support this. There are workarounds, but I haven't gotten them to work.
