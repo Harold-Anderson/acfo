@@ -8,7 +8,8 @@ there are still some problems.
 Here is a link to the deployed website: https://e3d5994f.acfo.pages.dev/
 It looks fine, but when you run Lighthouse, you will see:
 
-- The speed of the site is virtually identical to the site built with pnpm, so there is no speed benefit.
+- The speed of the site is virtually identical to the site built with pnpm, so there is no speed benefit.  
+  For instance, here is one with pnpm: https://a996d454.acfo.pages.dev/
 - Lighthouse complains about large layout shifts, which does not happen with pnpm.
 - Lighthouse informs us that pages are set up not to be indexed by robots. So the page wouln't show up in search engines.  
   This is by design. Non-production deployments are not indexed. Cloudflare inserts this.
