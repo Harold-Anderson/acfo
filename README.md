@@ -25,7 +25,7 @@ The website is designed to be fast and free.
 Please refer to the AstroWind repository for more information about the template and its features.  
 I am only going to discuss additional information not in the AstroWind README.md.
 
-# Speed and Hosting
+# Speed and Hosting.
 
 I played with many hosting providers. Eventually I settled on Cloudflare Pages because Cloudflare are experts
 in DDoS mitigation, and I didn't want to get stuck with a large traffic bill if my website was attacked.
