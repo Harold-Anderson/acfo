@@ -10,9 +10,10 @@ It looks fine, but when you run Lighthouse, you will see:
 
 - The speed of the site is virtually identical to the site built with pnpm, so there is no speed benefit.
 - Lighthouse complains about large layout shifts, which does not happen with pnpm.
-- Lighthouse informs us that pages are set up not to be indexed by robots. So the page wouln't show up in search engines.
+- Lighthouse informs us that pages are set up not to be indexed by robots. So the page wouln't show up in search engines.  
+  This is by design. Non-production deployments are not indexed. Cloudflare inserts this.
 
-I have not investigated these problems. It is enough for me to just use pnpm.
+I have not investigated the layout shift. It is enough for me to just use pnpm.
 
 ## Website based on AstroWind, a template for Astro, and hosted on Cloudflare Pages
 
