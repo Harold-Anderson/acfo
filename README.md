@@ -1,22 +1,40 @@
 ## Did Bun Work?
 
 This `bun` branch of the repository is designed to test bun and see if there is any benefit
-to using Bun as a build tool for Cloudflare Pages. My experiments showed there was not. Although
-things are better than they were when Reuben Tier wrote his [blog article](https://blog.otterlord.dev/posts/hello-from-bun/)
-there are still some problems.
+to using Bun as a build tool for Cloudflare Pages. My experiments showed that bun builds my Astro site in 31 seconds,
+whereas pnpm takes 71 seconds. There is no difference in the rendered output, since Cloudflare Pages uses V8, not bun.
 
-Here is a link to the deployed website: https://e3d5994f.acfo.pages.dev/
-It looks fine, but when you run Lighthouse, you will see:
+Here is a link to the deployed website: https://81a121cb.acfo.pages.dev/
 
-- The speed of the site is virtually identical to the site built with pnpm, so there is no speed benefit.  
-  For instance, here is one with pnpm: https://a996d454.acfo.pages.dev/
-- Lighthouse complains about large layout shifts, which does not happen with pnpm.
-- Lighthouse informs us that pages are set up not to be indexed by robots. So the page wouln't show up in search engines.  
-  This is by design. Non-production deployments are not indexed. Cloudflare inserts this.
+At this point, for my purposes it would be better to use bun than pnpm, since the build time is more than halved and there is no difference in the output or the Lighthouse scores. I have not tried deploying to a hosting provider such as Kinsta, Render, Northflank, Clever Cloud, Back4App, or Fly.io that uses the bun runtime. The ones I looked at had slower time to first byte, so would probably not show any benefit. My Lighthouse score
+for a small static Astro site is currently dominated by browser rendering and network, not delay in the runtime.
 
-I have not investigated the layout shift. It is enough for me to just use pnpm.
+## Changes you need to make to use Bun as a build tool and package manager
 
-## Website based on AstroWind, a template for Astro, and hosted on Cloudflare Pages
+Bun is less forgiving than vite and requires explicit configuration of Tailwind and PostCSS. Once this is done, the same code can be built
+using pnpm or bun. In addition, I have added a `detect-runtime.js` file that will ensure that vite is bun for the build, not node.  
+It is important to use `bun run --bun` and not `bun run`. Please see https://bun.sh/docs/cli/run#bun
+
+## How to Build and Deploy with Bun
+
+In order to build this website, clone it from GitHub, change into the directory, then:
+
+```
+bun run --bun build
+bun run --bun preview  #this will allow you to test the site using the bun runtime
+```
+
+When setting up a Cloudflare Pages project, you can elect to automatically deploy from GitHub. If you do that, to deploy it to Cloudflare Pages, just check it in to GitHub, and Cloudflare will start the build process.
+
+You may ask how Cloudflare knows how to use bun instead of npm by looking at this repository. It doesn't. You need to change that in the Settings > Build Configuration for your pages project on the Cloudflare Dashboard. change the Build Command to `bun run --bun build`
+
+You may ask how Cloudflare knows what version of Bun to use. If you don't specify the `BUN_VERSION` variable on the Settings for your Pages Project, Cloudflare will use its default version, currently 1.1.33. I would recommend letting Cloudflare choose the version.
+
+Please note that you can't have different build commands for the Production and Preview environments. This is kind of a pain. If you want to have one bun branch and another pnpm branch, you would have to change the build command in the Cloudflare dashboard every time you do a deployment.
+
+The rest of this README.md discusses the [AstroWind template](https://github.com/onwidget/astrowind) and [Cloudflare Pages](https://pages.cloudflare.com/).
+
+# Website based on AstroWind, a template for Astro, and hosted on Cloudflare Pages
 
 The repository contains the source code for my company website [acfo.co](https://acfo.co),
 which is built using the [AstroWind](https://github.com/onwidget/astrowind)
@@ -25,7 +43,7 @@ The website is designed to be fast and free.
 Please refer to the AstroWind repository for more information about the template and its features.  
 I am only going to discuss additional information not in the AstroWind README.md.
 
-# Speed and Hosting.
+## Speed and Hosting.
 
 I played with many hosting providers. Eventually I settled on Cloudflare Pages because Cloudflare are experts
 in DDoS mitigation, and I didn't want to get stuck with a large traffic bill if my website was attacked.
@@ -67,23 +85,7 @@ on my desktop computer. In order to achieve this, you need to make a few choices
 
 It might be possible to further improve LCP by preloading the hero image. Astro does not really support this. There are workarounds, but I haven't gotten them to work.
 
-# How to Build and Deploy with Bun
-
-I used bun instead of npm because it is faster.
-In order to build this website, clone it from GitHub, change into the directory, then:
-
-```
-bun run build
-bun run preview  #optional
-```
-
-To deploy it to Cloudflare Pages, just check it in to GitHub, and Cloudflare will start the build process. You may ask how Cloudflare knows how to use bun instead of npm by looking at this repository. It doesn't. You need to change that in the Settings > Build Configuration for your pages project on the Cloudflare Dashboard. change the Build Command to `bun run build`
-
-You may ask how Cloudflare knows what version of Bun to use. If you don't specify the `BUN_VERSION` variable on the Settings for your Pages Project, Cloudflare will use its default version, currently 1.1.33. I would recommend letting Cloudflare choose the version.
-
-Please note that you can't have different build commands for the Production and Preview environments. This is kind of a pain. If you want to have one bun branch and another pnpm branch, you would have to change the build command in the Cloudflare dashboard every time you do a deployment.
-
-# About the Astro Template
+## About the Astro Template
 
 The AstroWind template version I used has a bug where it will optimize
 even images in /public. This is a problem if you need to post your blog
@@ -93,7 +95,7 @@ I didn't want my blog entries to be displayed by date. I wanted to be able to
 order them the way I wanted to. So this repository orders blog entries
 by file name.
 
-# A Final Word
+## A Final Word
 
 Thank you for reading this. I hope it helps you. There are certainly
 things that could be improved. Please drop me a line if you have any
