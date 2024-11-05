@@ -1,9 +1,8 @@
-// src/tailwind.config.js
 
-const defaultTheme = require('tailwindcss/defaultTheme');
-const typographyPlugin = require('@tailwindcss/typography');
+import defaultTheme from 'tailwindcss/defaultTheme';
+import typographyPlugin from '@tailwindcss/typography';
 
-module.exports = {
+export default {
   content: [
     './src/pages/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}',
     './src/components/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}',
