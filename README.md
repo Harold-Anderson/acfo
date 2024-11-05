@@ -12,7 +12,7 @@ for a small static Astro site is currently dominated by browser rendering and ne
 ## Changes you need to make to use Bun as a build tool and package manager
 
 Bun is less forgiving than vite and requires explicit configuration of Tailwind and PostCSS. Once this is done, the same code can be built
-using pnpm or bun. In addition, I have added a `detect-runtime.js` file that will ensure that vite is bun for the build, not node.  
+using pnpm or bun. In addition, I have added a `detect-runtime.js` file that will ensure that vite is using bun for the build, not node.  
 It is important to use `bun run --bun` and not `bun run`. Please see https://bun.sh/docs/cli/run#bun
 
 ## How to Build and Deploy with Bun
