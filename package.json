@@ -42,9 +42,10 @@
     "@jridgewell/sourcemap-codec": "^1.5.0",
     "@playform/inline": "^0.1.0",
     "@rollup/plugin-inject": "^5.0.5",
+    "astro": "^5.0.0-beta.7",
     "astro-embed": "^0.7.4",
     "astro-emoji": "^1.2.0",
-    "astro-icon": "^1.1.1",
+    "astro-icon": "^1.1.2",
     "esbuild": "^0.24.0",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
@@ -64,14 +65,13 @@
     "@types/eslint__js": "^8.42.3",
     "@types/js-yaml": "^4.0.9",
     "@types/lodash.merge": "^4.6.9",
-    "@typescript-eslint/eslint-plugin": "^8.12.2",
-    "@typescript-eslint/parser": "^8.12.2",
-    "astro": "5.0.0-beta.6",
+    "@typescript-eslint/eslint-plugin": "^8.13.0",
+    "@typescript-eslint/parser": "^8.13.0",
     "astro-eslint-parser": "^1.0.3",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.14.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "globals": "^15.11.0",
+    "globals": "^15.12.0",
     "husky": "^9.1.6",
     "js-yaml": "^4.1.0",
     "mdast-util-to-string": "^4.0.0",
@@ -84,6 +84,6 @@
     "tailwind-merge": "^2.5.4",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.12.2"
+    "typescript-eslint": "^8.13.0"
   }
 }
