@@ -4,13 +4,13 @@ module.exports = {
   semi: true,
   singleQuote: true,
   tabWidth: 2,
-  trailingComma: 'es5',
+  trailingComma: 'all',
   useTabs: false,
 
-  plugins: [require.resolve('prettier-plugin-astro'),
-  require.resolve('@prettier/plugin-xml')],
+  plugins: [require.resolve('prettier-plugin-astro'), require.resolve('@prettier/plugin-xml')],
 
-  overrides: [{ files: '*.astro', options: { parser: 'astro' } },
-    { files: '*.xml', options: { parser: 'xml' } }
+  overrides: [
+    { files: '*.astro', options: { parser: 'astro' } },
+    { files: '*.xml', options: { parser: 'xml' } },
   ],
 };
