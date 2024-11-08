@@ -1,7 +1,7 @@
 ---
 publishDate: 2024-11-08T00:00:00Z
 title: Should I Start a Business?
-excerpt: Key Questions to Ask Before You Dive In.
+excerpt: Learn what makes a successful business. Do you have what it takes?
 tags:
   - cpg
   - basics
