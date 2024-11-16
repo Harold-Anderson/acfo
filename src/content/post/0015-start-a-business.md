@@ -10,7 +10,7 @@ image: '~/assets/images/wondering.jpeg'
 
 This week in Portland there was an awards ceremony celebrating entrepreneurs who had made a difference to the region. It was sold out. As a sponsor, I was invited to attend. I met several would-be entrepreneurs who were there to think about whether they too should start a business. They had an idea, but didn't know whether it could lead to a successful business. When I introduced myself as a Fractional CFO, they wanted to pick my brain. One person had an innovative dairy product. Another had a new type of skiing equipment. A third had a type of technology to allow cold-weather starts for the trucking industry.
 
-In the [first blog article](./001-cpg-success-factors), I wrote about the basic elements of success. Let's simplify it even more. There are three basic things you absolutely need:
+In the [first blog article](/001-cpg-success-factors), I wrote about the basic elements of success. Let's simplify it even more. There are three basic things you absolutely need:
 
 1. **A product that people want.** 85% of new businesses fail. Half of those fail because the product is not needed or wanted by the market. Spend time discussing the product with potential retailers. Would they carry the product? What do they see it competing with? What should the price be?
 
