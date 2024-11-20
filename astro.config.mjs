@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
+import remarkGfm from 'remark-gfm';
 
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
@@ -54,7 +55,7 @@ export default defineConfig({
         config: {
           forward: ['dataLayer.push'],
         },
-      })
+      }),
     ),
     compress({
       CSS: true,
@@ -74,7 +75,7 @@ export default defineConfig({
     playformInline(),
   ],
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
+    remarkPlugins: [readingTimeRemarkPlugin, remarkGfm],
     rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin],
   },
   vite: {
