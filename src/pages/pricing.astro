@@ -28,97 +28,73 @@ const metadata = {
 
   <!-- Pricing Widget ******************* -->
 
-  <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need."
-    prices={[
-      {
-        title: 'basic',
-        subtitle: 'Budget choice',
-        price: 1000,
-        period: 'per month',
-        items: [
-          {
-            description: 'One hour-long call per month.',
+  <div class="prices-container">
+    <Prices
+      title=""
+      prices={[
+        {
+          title: 'standard',
+          subtitle: 'Flagship Service.',
+          price: 3000,
+          period: 'Per Month',
+          items: [
+            {
+              description:
+                'One hour-long call. a half-hour call, email and Teams chat support.' +
+                ' Total 1/2 day per week of our time, including analysis and preparation.',
+            },
+            {
+              description: 'Professional reports and analysis.',
+            },
+            {
+              description: 'Build-out of cash-flow and forecasting models.',
+            },
+            {
+              description: 'CFO-level advice on strategy and tactics.',
+            },
+            {
+              description: 'Help with capital raises, including structures, presentations, and introductions.',
+            },
+          ],
+          callToAction: {
+            target: '_blank',
+            text: 'Get started',
+            href: '/contact',
           },
-          {
-            description: 'CFO-level advice.',
-          },
-          {
-            description: 'Three hours of research and review from our side.',
-          },
-          {
-            description: 'No implementation or model-building.',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '/contact',
+          hasRibbon: true,
+          ribbonTitle: 'popular',
         },
-      },
-      {
-        title: 'standard',
-        subtitle: 'Flagship Service.',
-        price: 3000,
-        period: 'Per Month',
-        items: [
-          {
-            description:
-              'One hour-long call. a half-hour call, email and Teams chat support.' +
-              ' Total 1/2 day per week of our time, including analysis and preparation.',
+        {
+          title: 'Projects/Custom',
+          subtitle: 'According to your needs',
+          price: `6000+`,
+          period: 'Per Month',
+          items: [
+            {
+              description: 'One day a week of our time.',
+            },
+            {
+              description: 'Project based work or for larger companies with complex needs.',
+            },
+            {
+              description: 'Advanced forecasting and planning.',
+            },
+            {
+              description: 'Systems and/or ERP integrations.',
+            },
+            {
+              description: 'Power BI infrastructure and reports.',
+            },
+          ],
+          callToAction: {
+            target: '_blank',
+            text: 'Get started',
+            href: '/contact',
           },
-          {
-            description: 'Professional reports and analysis.',
-          },
-          {
-            description: 'Build-out of cash-flow and forecasting models.',
-          },
-          {
-            description: 'CFO-level advice on strategy and tactics.',
-          },
-          {
-            description: 'Help with capital raises, including structures, presentations, and introductions.',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '/contact',
         },
-        hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'Projects/Custom',
-        subtitle: 'According to your needs',
-        price: `6000+`,
-        period: 'Per Month',
-        items: [
-          {
-            description: 'One day a week of our time.',
-          },
-          {
-            description: 'Project based work or for larger companies with complex needs.',
-          },
-          {
-            description: 'Advanced forecasting and planning.',
-          },
-          {
-            description: 'Systems and/or ERP integrations.',
-          },
-          {
-            description: 'Power BI infrastructure and reports.',
-          },
-        ],
-        callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '/contact',
-        },
-      },
-    ]}
-  />
+      ]}
+    />
+  </div>
 
   <!-- FAQs Widget ******************* -->
 
@@ -136,8 +112,7 @@ const metadata = {
       },
       {
         title: 'Do you offer any guarantees?',
-        description:
-          `No.  Often client infrastructure or personnel issues prevent results from being achieved as quickly as customers wanted. 
+        description: `No.  Often client infrastructure or personnel issues prevent results from being achieved as quickly as customers wanted. 
        Clients need to manage their projects and personnel. A Fractional CFO cannot do your management job for you.`,
       },
       {
@@ -162,6 +137,12 @@ const metadata = {
           'Peaks and troughs in demand are to be expected.  However, if we are consistently allocating more time ' +
           ' to your account than what you have paid for, we will ask you to upgrade to a higher level of service.',
       },
+      {
+        title: `Don't you have a cheaper plan for startups?`,
+        description: `We used to have a plan for startups.  However, the plan did not offer the level of service
+      that the startups wanted. So everyone was unhappy.  In order for us to make a difference for you, 
+      we need to dedicate a half-day a week`,
+      },
     ]}
   />
 
@@ -177,5 +158,14 @@ const metadata = {
         href: '/contact',
       },
     ]}
-  />
-</Layout>
+  /></Layout
+><style>
+  .prices-container {
+    display: flex;
+    justify-content: center;
+  } /* Add the following CSS */
+  .pricing-grid {
+    display: flex;
+    justify-content: center;
+  }
+</style>
