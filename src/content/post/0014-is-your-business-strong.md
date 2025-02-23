@@ -40,7 +40,9 @@ Once you have decided on a product to sell, the trajectory of the company is bas
 
 In the past year that I have been a Fractional CFO, I have had the pleasure of interacting with many companies, both successful and unsuccessful. The leaders of these companies have varied in talent. Some companies have founders with previous successful exits. Some have raised millions of dollars. Some have stellar advisory boards. Some are LLCs, S-Corps, or C-Corps. Some have no marketing team. Some have no computer systems in place. Others are using state-of-the-art computers.
 
-None of that matters. The two things that characterize strong companies are a large untapped demand for their product and that the company can produce the product profitably. Even if they are writing the orders down with a pencil and mailing the invoices by U.S. mail.
+None of that matters. The two things that characterize strong companies are a large untapped demand for their product and that the company can produce the product profitably. Even if they are writing the orders down with a pencil and mailing the invoices by U.S. mail[^1].
+
+[^1]: When Microsoft first started, the founders were so busy fulfilling customer orders they didn't even have time to deposit customer checks, and just left them lying around the office.
 
 Here are some things that don't matter, but that entrepreneurs spend a lot of time thinking about:
 
@@ -50,11 +52,11 @@ Here are some things that don't matter, but that entrepreneurs spend a lot of ti
 
 **Should I have an advisory board** If your sales are exploding and you are not running out of money, you probably know more about your business than any advisory board would. Instead, continue innovating and offering the products your customers love.
 
-**Should I use distributors?** If you have a strong product, you will be able to overcome the fees that large distributors charge. You will also have a choice of channels where you can sell your product. Sell it in all channels, making sure you are making a large profit on every sale. Weak companies that are scared to death of using large distributors because of the fees involved. This is a sign that the real problem is the product, or at a minimum the channel that the distributor sells into is not the best channel for that product.
+**Should I use distributors?** If you have a strong product, you will be able to overcome the fees that large distributors charge. You will also have a choice of channels where you can sell your product. Sell it in all channels, making sure you are making a large profit on every sale. Weak companies are scared to death of using large distributors because of the fees involved. This is a sign that the real problem is the product, or at a minimum the channel that the distributor sells into is not the best channel for that product.
 
 **Should I raise money from Venture Capital?** I have been on calls where VCs were begging the company to take their money. Strong companies do not have to dilute founder ownership by taking VC money, unless it is is software product that needs development funds to get to a minimum viable product. Strong companies with some sales history often can borrow funds. Venture Capital itself is a relatively new concept. Before that, companies generated profit on their products immediately from strong demand. For instance, read Phil Knight's memoir _Shoe Dog_.
 
-**Where can I find a lawyer to trademark my IP** Although it is important to protect the name of your product, only your ability to out-innovate the competition will in the end determine whether you will survive. I have done trademarking myself...
+**Where can I find a lawyer to trademark my IP** Although it is important to protect the name of your product, only your ability to out-innovate the competition will in the end determine whether you will survive. Trademarking a brand is not difficult to do yourself, in fact.
 
 **What gross margin do I need?** Although I stressed that a 40% gross margin is desirable, I have seen very successful companies with 25% gross margins. (Although they thought their margin was 60%). The key thing is that you are making enough to pay your staff and that you are experiencing strong demand for your products.
 
