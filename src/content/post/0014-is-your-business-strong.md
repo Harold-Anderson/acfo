@@ -42,7 +42,7 @@ In the past year that I have been a Fractional CFO, I have had the pleasure of i
 
 None of that matters. The two things that characterize strong companies are a large untapped demand for their product and that the company can produce the product profitably. Even if they are writing the orders down with a pencil and mailing the invoices by U.S. mail[^1].
 
-[^1]: When Microsoft first started, the founders were so busy fulfilling customer orders they didn't even have time to deposit customer checks, and just left them lying around the office.
+[^1]: When Microsoft started, the founders were so busy fulfilling customer orders they didn't have time to deposit customer checks. They just left them lying around the office.
 
 Here are some things that don't matter, but that entrepreneurs spend a lot of time thinking about:
 
@@ -56,10 +56,10 @@ Here are some things that don't matter, but that entrepreneurs spend a lot of ti
 
 **Should I raise money from Venture Capital?** I have been on calls where VCs were begging the company to take their money. Strong companies do not have to dilute founder ownership by taking VC money, unless it is is software product that needs development funds to get to a minimum viable product. Strong companies with some sales history often can borrow funds. Venture Capital itself is a relatively new concept. Before that, companies generated profit on their products immediately from strong demand. For instance, read Phil Knight's memoir _Shoe Dog_.
 
-**Where can I find a lawyer to trademark my IP** Although it is important to protect the name of your product, only your ability to out-innovate the competition will in the end determine whether you will survive. Trademarking a brand is not difficult to do yourself, in fact.
+**Where can I find a lawyer to trademark my IP** Although it is important to protect the name of your product, your ability to out-innovate the competition will determine success. Trademarking a brand is not difficult to do yourself.
 
-**What gross margin do I need?** Although I stressed that a 40% gross margin is desirable, I have seen very successful companies with 25% gross margins. (Although they thought their margin was 60%). The key thing is that you are making enough to pay your staff and that you are experiencing strong demand for your products.
+**What gross margin do I need?** Although I said that a 40% gross margin is desirable, I have seen successful companies with 25% gross margins. (Although they thought their margin was 60%). The key thing is that you are making enough to pay your staff and that you are experiencing strong demand for your products.
 
 ### Final Thoughts
 
-If you are spending time trying to finely craft a marketing message or your investor deck, you may be trying to compensate for a weak product. Instead, think about offering a stronger product to the market. If you make a better mousetrap, the world will beat a path to your door. And you won't need a lawyer or a VC.
+If you are spending time trying to finely craft a marketing message or your investor deck, you may be trying to compensate for a weak product. Instead, offer a compelling product. If you make a better mousetrap, the world will beat a path to your door. And you won't need a lawyer or a VC.
