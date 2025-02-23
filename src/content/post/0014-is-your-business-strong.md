@@ -14,7 +14,7 @@ And yet, none of that determines whether a company is strong and will succeed. J
 
 The two things that truly matter are:
 
-1. **Strong Demand**: For any company to truly succeed, there must be a strong demand for the product. Most entrepreneurs believe they have come up with a unique product. Maybe they think they have even created a whole new category! However, most products differ only slightly from existing products on the market. Although there might be a small number of customers who appreciate your unique selling point (USP), for a company to be strong, there must be a large demand for the product versus the competitors at the price you are offering it.
+1. **Strong Demand**: For a company to succeed, there must be a strong demand for the product. Most entrepreneurs believe they have come up with a unique product. Maybe they think they have even created a whole new category! However, most products differ only slightly from existing products on the market. Although there might be a small number of customers who appreciate your unique selling point (USP), for a company to be strong, there must be a large demand for the product versus the competitors at the price you are offering it.
 
    Your product will be sold in the market next to your larger competitor, who most likely can produce at a lower price than you. For the customer to prefer your product, it needs to be significantly better or different than the competitor’s product.
 
