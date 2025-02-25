@@ -34,7 +34,7 @@ These two factors -- demand and profitability -- are linked. If customers value 
 
 ### It is about the product
 
-Once you have decided on a product to sell, the trajectory of the company is basically set. A talented, well-funded, or experienced staff cannot compensate for a bad product. Likewise, good products will often generate so much demand that the company will be able to attract talent and capital.
+Once you have decided on a product to sell, the trajectory of the brand is basically set (barring execution blunders). A talented, well-funded, or experienced staff cannot compensate for a bad product. Likewise, good products will often generate so much demand that the company will be able to attract talent and capital.
 
 ### What doesn't matter
 
