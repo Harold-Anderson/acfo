@@ -10,20 +10,8 @@ function isShopifyHmacValid(event) {
 }
 
 exports.handler = async function (event, context) {
-  if (event.httpMethod !== 'POST') {
-    return {
-      statusCode: 405,
-      body: JSON.stringify({ error: 'Method Not Allowed' }),
-    };
-  }
-  if (!isShopifyHmacValid(event)) {
-    return {
-      statusCode: 401,
-      body: JSON.stringify({ error: 'Unauthorized' }),
-    };
-  }
   const body = JSON.parse(event.body || '{}');
-  // TODO: Implement erasure logic here
+  // TODO: Implement customer data erasure logic here
   console.log('Customer data erasure request:', body);
   return {
     statusCode: 200,
