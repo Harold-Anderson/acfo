@@ -25,7 +25,7 @@ In one extreme case, a client has spent _more than a year_ trying to connect a p
 
 Usually things go better than this. But even in the best cases, the inventory value in one system can drift from the inventory value in another system. Or the address of a customer in one system may inexplicably be different across systems. Or the termination date for an employee in your HR system may not flow to your FP & A system. All of these things have happened to my clients.
 
-Given that a subscription to [Odoo ERP](https://www.odoo.com) costs as little as $24.90 per month, I'm now recommending that entrpreneurs first consider whether Odoo meets their needs. I would be surprised if the average small business had needs that Odoo does not address.
+Given that a subscription to [Odoo ERP](https://www.odoo.com) costs as little as $24.90 per month, I'm now recommending that entrpreneurs first consider whether Odoo meets their needs. I would be surprised if your small business has needs that Odoo does not address.
 
 For this price, you get an accounting system, an inventory management system, a production system, a website, an eCommerce module, and a CRM. Along with many other features. Just QuickBooks Advanced alone costs $235/month. So for a tenth of the price, Odoo replaces QuickBooks, your inventory management and production system (for instance Fishbowl, Cin7 Core, or SOS Inventory), your website (Wix or Squarespace), your eCommerce platform (Shopify), and your CRM system (HubSpot).
 
