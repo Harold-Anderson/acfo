@@ -15,7 +15,7 @@ A year ago I wrote a [blog article](/003-you-probably-dont-need-an-erp-system) t
 
 After a year of working with manufacturing clients, I've changed my mind. Let's go through my experiences and current advice.
 
-Nearly every manufacturing business needs to do accounting, keep track of inventory, and do accurate accounting for manufacturing costs. You need a website certainly. Maybe you need eCommerce. They might need a CRM system. Perhaps they need a forecasting and budgeting system as well.
+Nearly every manufacturing business needs to do accounting, keep track of inventory, and do accurate accounting for manufacturing costs. You need a website certainly. Maybe you need eCommerce. Perhaps a CRM system, and a forecasting and budgeting system as well.
 
 There are good systems out there for all these tasks. Some even offer free tiers. So a thrifty entrepreneur often signs up for the free tiers for these pieces and tries to get them to talk to each other. If they can get it to work, the resulting _best of breed_ system seems like a big win for the company. Indeed, in my blog post a year ago, I recommended those systems for companies under $50 million in annual sales.
 
