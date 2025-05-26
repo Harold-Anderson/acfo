@@ -44,9 +44,6 @@ export const footerData = {
     {
       title: 'Partners',
       links: [
-        { text: 'Causal', href: 'https://causal.app', target: '_blank' },
-        { text: 'SOS Inventory', href: 'https://sosinventory.com' },
-        { text: 'Glimpse', href: 'https://tryglimpse.com' },
         { text: 'Oregon Entrepreneurs Network', href: 'https://oen.org' },
         { text: 'QuickBooks Online', href: 'https://quickbooks.intuit.com/accounting/' },
         { text: 'QuickBooks Payroll', href: 'https://quickbooks.intuit.com/payroll/' },
@@ -68,7 +65,6 @@ export const footerData = {
           href: 'https://docs.google.com/spreadsheets/d/1ZMRgneYTd7yEF9UAYFGFnWhV44ZVi0kvcVdAaPzUGr4/edit?usp=sharing',
         },
         { text: 'Startup CPG', href: 'https://startupcpg.com/' },
-        { text: 'Unloop Accounting', href: 'https://unloop.com/' },
       ],
     },
     {

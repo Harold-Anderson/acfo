@@ -17,9 +17,14 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero actions={[]} image={{ src: '~/assets/images/asian_blue_jacket-16x9.png', 
-                              alt: 'Anderson CFO Hero Image',
-                              fectchpriority: 'high' }}>
+  <Hero
+    actions={[]}
+    image={{
+      src: '~/assets/images/asian_blue_jacket-16x9.png',
+      alt: 'Anderson CFO Hero Image',
+      fectchpriority: 'high',
+    }}
+  >
     <Fragment slot="title">
       Helping
       <span class="text-accent dark:text-white highlight"> your</span> business succeed.
@@ -52,10 +57,10 @@ const metadata = {
       image={{
         src: '~/assets/images/woman-boxes.webp',
         alt: 'Harold Anderson',
-        fetchpriority: "high"
+        fetchpriority: 'high',
       }}
       callToAction={{
-        variant: 'primary',  // Choose the variant based on your design needs
+        variant: 'primary', // Choose the variant based on your design needs
         href: '#Services', // Use 'href' instead of 'target' for anchor elements
         icon: 'tabler:arrow-right', // Specify an icon name if needed
         text: 'Learn More', // The button label
@@ -162,43 +167,41 @@ const metadata = {
   />
 
   <Testimonials
-  title="Words from real customers"
-  testimonials={[
-    {
-      testimonial: `I was initially skeptical about hiring a fractional CFO, 
+    title="Words from real customers"
+    testimonials={[
+      {
+        testimonial: `I was initially skeptical about hiring a fractional CFO, 
       especially for the unique challenges of the CPG industry. But in a critical time of need, 
       Harold Anderson at Anderson CFO exceeded every expectation. His expertise, insights, 
       and strategic approach have been invaluable. 
       Highly recommended for anyone looking for top-tier financial leadership!`,
-      name: 'Mike White',
-      job: 'Venture Catalyst + Advisor',
-      image: {
-        src: '~/assets/images/mike-white-1.jpg',
-        alt: 'Mike White Image',
+        name: 'Mike White',
+        job: 'Venture Catalyst + Advisor',
+        image: {
+          src: '~/assets/images/mike-white-1.jpg',
+          alt: 'Mike White Image',
+        },
       },
-    },
-    {
-      testimonial: `Should have talked to you earlier.`,
-      name: 'Hans Fastre',
-      job: 'Thaiwala Inc., CEO',
-      image: {
-        src: '~/assets/images/hans-fastre.jpg',
-        alt: 'Hans Fastre Image',
+      {
+        testimonial: `Should have talked to you earlier.`,
+        name: 'Hans Fastre',
+        job: 'Thaiwala Inc., CEO',
+        image: {
+          src: '~/assets/images/hans-fastre.jpg',
+          alt: 'Hans Fastre Image',
+        },
       },
-    },
-    {
-      testimonial: `I do definitely feel that your advice and help has been great!`,
-      name: 'Nathan Keane',
-      job: 'Goodwolf, CEO',
-      image: {
-        src: '~/assets/images/nathan.jpg',
-        alt: 'Nathan Keane Image',
+      {
+        testimonial: `I do definitely feel that your advice and help has been great!`,
+        name: 'Nathan Keane',
+        job: 'Goodwolf, CEO',
+        image: {
+          src: '~/assets/images/nathan.jpg',
+          alt: 'Nathan Keane Image',
+        },
       },
-    },
-    
-  ]}
- 
-/>
+    ]}
+  />
 
   <Brands
     title="Partnerships & Collaborations"
@@ -206,10 +209,6 @@ const metadata = {
     id="Partners"
     icons={[]}
     images={[
-      {
-        src: '~/assets/images/causal-logo-transparent.png',
-        alt: 'Causal',
-      },
       {
         src: '~/assets/images/wayflyer-logo-v2.png',
         alt: 'Wayflyer',
@@ -220,16 +219,8 @@ const metadata = {
       },
 
       {
-        src: '~/assets/images/sos-logo-transparent.png',
-        alt: 'SOS Inventory',
-      },
-      {
         src: '~/assets/images/oen-logo.png',
         alt: 'Oregon Entrepreneurs Network',
-      },
-      {
-        src: '~/assets/images/glimpse-logo.webp',
-        alt: 'Glimpse',
       },
     ]}
   >

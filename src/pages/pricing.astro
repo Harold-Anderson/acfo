@@ -20,11 +20,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your goals."
-  />
+  <HeroText tagline="Pricing" title="One Size Fits All Pricing" subtitle="Ensure you get what you need." />
 
   <!-- Pricing Widget ******************* -->
 
@@ -32,36 +28,6 @@ const metadata = {
     <Prices
       title=""
       prices={[
-        {
-          title: 'lite',
-          subtitle: 'Budget Service.',
-          price: 3000,
-          period: 'Per Month',
-          items: [
-            {
-              description:
-                'One hour-long call. a half-hour call, email and Teams chat support.' +
-                ' Total 1/2 day per week of our time, including analysis and preparation.',
-            },
-            {
-              description: 'Professional reports and analysis.',
-            },
-            {
-              description: 'Build-out of simpler cash-flow and forecasting models.',
-            },
-            {
-              description: 'CFO-level advice on strategy and tactics.',
-            },
-            {
-              description: 'Help with capital raises, including structures, presentations, and introductions.',
-            },
-          ],
-          callToAction: {
-            target: '_blank',
-            text: 'Get started',
-            href: '/contact',
-          },
-        },
         {
           title: 'Standard',
           subtitle: 'According to your needs',
@@ -139,9 +105,8 @@ const metadata = {
       },
       {
         title: `Don't you have a cheaper plan for startups?`,
-        description: `We used to have a plan for startups.  However, the plan did not offer the level of service
-      that the startups wanted. So everyone was unhappy.  In order for us to make a difference for you, 
-      we need to dedicate a half-day a week`,
+        description: `We used to have cheaper plans.  However, the cheapest plan did not offer the level of service
+      that clients wanted.  Then strong demand forced us to drop the remaining cheaper plan. Now we only have one plan, which is the Standard plan.`,
       },
     ]}
   />
