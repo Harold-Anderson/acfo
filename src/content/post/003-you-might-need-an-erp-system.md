@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-05-26T00:00:00Z
+publishDate: 2025-10-18T00:00:00Z
 title: You might need an ERP system
 excerpt: 'Discussions about monolithic and best of breed ERP systems.'
 tags:
@@ -32,5 +32,7 @@ For this price, you get an accounting system, an inventory management system, a 
 The big win here is that there are no connectors to break, no inventory values to drift apart, no differences in customer addresses between systems. You can focus on your business instead of talking with the various vendors of the disparate systems or connectors.
 
 On the off chance that Odoo is inadequate, there is a marketplace of plugins that enhance the capabilities of Odoo, or you can even write your own. However, I would advise you to not do that. See if the base product does what you need. It probably does.
+
+For perspective, Google invested over $500 million in Odoo in 2024. This will ensure that Odoo has world-class support, documentation is stellar, that bugs are minimal, and that feature development is excellent. These are often bugaboos with smaller systems.
 
 I'd love to hear about your experiences. Please let me know if you agree or disagree.
