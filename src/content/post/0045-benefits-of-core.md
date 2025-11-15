@@ -9,7 +9,7 @@ image: '~/assets/images/warehouse-cartoon.jpeg'
 postID: 4
 ---
 
-Just like a car can increase your safety with additional features, an inventory system can keep you from making mistakes that would render your financials worthless. Let's go over two features that Cin7 Core has that prevent financial chaos.
+Just like a car can increase your safety with additional features, an inventory system can keep you from making mistakes that would render your financials worthless. Let's go over two features of Cin7 Core that prevent financial chaos.
 
 1. Let's say you manufacture your own products or use a co-manufacturer and you have backorders. Immediately after manufacturing, you sell some of the products to customers. Then over the next few weeks or months, you continue to receive vendor bills related to that production, even though some of the units have already been sold.
 
