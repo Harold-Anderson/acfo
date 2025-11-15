@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-09-14T00:00:00Z
+publishDate: 2025-11-15T00:00:00Z
 title: Benefits of Cin7 Core
 excerpt: Like a car, sometimes the additional safety features of inventory system justify a higher price.  Learn how Cin7 Core keeps your financials correct.
 tags:
