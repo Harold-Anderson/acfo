@@ -1,0 +1,143 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Privacy Policy',
+};
+---
+
+<Layout metadata={metadata}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-16 dark:text-slate-300">
+    <h1 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+      Privacy Policy
+    </h1>
+    <p class="text-lg text-muted mb-2">Anderson CFO LLC ("ACFO")</p>
+    <p class="text-sm text-muted mb-8">Effective Date: March 24, 2026</p>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Introduction</h2>
+      <p>
+        Anderson CFO LLC ("ACFO," "we," "us," or "our") operates the website
+        <a href="https://acfo.co" class="text-blue-600 dark:text-blue-400 underline">https://acfo.co</a> and provides
+        fractional CFO and financial data integration services to our clients. This Privacy Policy describes how we
+        collect, use, store, and protect information in connection with our services, including our use of the Amazon
+        Selling Partner API ("SP-API").
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Information We Collect</h2>
+      <p class="mb-4">We may collect the following categories of information:</p>
+      <ul class="list-disc list-inside space-y-2 ml-4">
+        <li>
+          <strong>Client Business Information:</strong> Business name, contact details, merchant identifiers, and financial
+          data necessary to provide our services.
+        </li>
+        <li>
+          <strong>Amazon Selling Partner Data:</strong> When authorized by our clients, we access seller data through the
+          Amazon Selling Partner API, including order data, inventory data, financial data, catalog data, and related
+          business information. This data is collected solely on behalf of and at the direction of our clients.
+        </li>
+        <li>
+          <strong>Website Information:</strong> We may collect standard server logs, including IP addresses, browser type,
+          and pages visited when you access our website.
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">How We Use Information</h2>
+      <p class="mb-4">We use the information we collect to:</p>
+      <ul class="list-disc list-inside space-y-2 ml-4">
+        <li>Provide fractional CFO services to our clients</li>
+        <li>Integrate client data with analytics and data warehousing platforms (such as Fivetran and Google BigQuery)</li>
+        <li>Generate financial reports and business intelligence</li>
+        <li>Comply with applicable legal and regulatory requirements</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Amazon Selling Partner API Data</h2>
+      <p class="mb-4">We access Amazon Selling Partner data exclusively on behalf of our authorized clients.</p>
+      <ul class="list-disc list-inside space-y-2 ml-4">
+        <li>
+          We do not sell, rent, or share Amazon Information with any third parties except as necessary to provide our
+          contracted services to the authorizing client.
+        </li>
+        <li>Amazon Information is transmitted and stored using encryption in transit (TLS/HTTPS) and at rest.</li>
+        <li>
+          We retain Amazon Information only for as long as necessary to fulfill our service obligations to the client, or
+          as required by law.
+        </li>
+        <li>
+          We comply with Amazon's Acceptable Use Policy, Data Protection Policy, and the Solution Provider Agreement.
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Data Sharing</h2>
+      <p class="mb-4">We do not sell personal information. We share information only with:</p>
+      <ul class="list-disc list-inside space-y-2 ml-4">
+        <li>The client who authorized the data access</li>
+        <li>
+          Service providers necessary to deliver our services (such as cloud hosting and data warehouse providers)
+        </li>
+        <li>When required by law, regulation, or legal process</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Data Security</h2>
+      <p class="mb-4">
+        We implement appropriate technical and organizational measures to protect information, including:
+      </p>
+      <ul class="list-disc list-inside space-y-2 ml-4">
+        <li>Encryption of data in transit and at rest</li>
+        <li>Access controls based on job duties and business functions</li>
+        <li>Network security controls including firewalls and intrusion detection</li>
+        <li>Password policies including multi-factor authentication</li>
+        <li>
+          An incident response plan with defined roles and 24-hour notification procedures for security incidents
+          involving Amazon Information
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Data Retention</h2>
+      <p>
+        We retain client data only for as long as necessary to provide our services or as required by law. Upon
+        termination of a client engagement, we will delete or return client data in accordance with our contractual
+        obligations.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Your Rights</h2>
+      <p>
+        Depending on your jurisdiction, you may have rights regarding your personal information, including the right to
+        access, correct, or delete your data. To exercise any rights, contact us at the information below.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will post the updated policy on our website with a
+        revised effective date.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4 dark:text-gray-200">Contact Us</h2>
+      <p>Anderson CFO LLC</p>
+      <p>
+        Email: <a href="mailto:harold@acfo.co" class="text-blue-600 dark:text-blue-400 underline">harold@acfo.co</a>
+      </p>
+      <p>
+        Website: <a href="https://acfo.co" class="text-blue-600 dark:text-blue-400 underline">https://acfo.co</a>
+      </p>
+    </section>
+  </div>
+</Layout>
