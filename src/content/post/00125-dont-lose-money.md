@@ -18,7 +18,7 @@ One investor admitted to being rather new to the idea of startup investing. He a
 
 There are so many fatal mistakes, it took a minute to answer. Finally I said that losing money is a warning sign. It seems obvious, but deserves more examination.
 
-Many successful companies have been started without ever taking investor cash. They were profitable from the beginning. Bootstrapping your business was the only path until recently. Venture capital and angels are relatively new phenomena. If you lost money, it was proof that your business could not build or buy a product and sell it for more.
+Many successful companies never take investor cash. They were profitable from the beginning. Bootstrapping your business was the only path until recently. Venture capital and angels are relatively new phenomena. If you lost money, it was proof that your business could not build or buy a product and sell it for more.
 
 The idea of venture capital is that for some businesses, it would be advantageous to temporarily lose money in pursuit of faster growth, for instance by hiring a salesperson.
 
