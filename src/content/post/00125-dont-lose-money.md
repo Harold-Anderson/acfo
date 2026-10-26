@@ -32,7 +32,7 @@ Having now advised dozens of companies over many years, and at the risk of stati
 
 Again, this seems obvious, but I have had clients lose money consistently for years and finance it with debt. This eventually results in a death spiral where the company sinks under debt service payments. Recovering from this requires a capital infusion and a balanced budget.
 
-**Insufficient Sales** Every financial plan I have ever seen has been too optimistic. Usually sales come in much less than anticipated. While expenses and capital investment can be predicted, sales may not be under your control to the same degree. The result again is a loss. When this occurs, the company must first adjust expenses to match the income and then ask why the market uptake is not as expected.
+**Insufficient Sales** Most financial plans are too optimistic. Usually sales come in much less than anticipated. While expenses and capital investment can be predicted, sales may not be under your control to the same degree. The result again is a loss. When this occurs, the company must first adjust expenses to match the income and then ask why the market uptake is not as expected.
 
 I cannot stress this highly enough. Most founders overestimate the appeal of their products, expecting that consumers will value the unique selling points that led them to create the product in the first place. This is rarely the case. Lack of product-market fit is by far the leading cause of business failure.
 
