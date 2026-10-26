@@ -75,7 +75,11 @@ export default defineConfig({
     astrowind({
       config: './src/config.yaml',
     }),
-    playformInline(),
+    playformInline({
+      // The stylesheet is shared by every page, so pruning inlined rules from it
+      // strips classes that other pages still need.
+      Beasties: { pruneSource: false },
+    }),
   ],
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin, remarkGfm],
