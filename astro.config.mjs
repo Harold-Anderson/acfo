@@ -26,6 +26,9 @@ const whenExternalScripts = (items = []) =>
 export default defineConfig({
   output: 'static',
   site: 'https://www.acfo.co',
+  image: {
+    domains: ['cdn.pixabay.com', 'images.unsplash.com', 'plus.unsplash.com'],
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
